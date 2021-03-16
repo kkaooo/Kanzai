@@ -1,9 +1,47 @@
 @charset 'utf-8';
 
+.header{
+    display: flex;
+}
+
 .kaitai{
     &_banner{
         img + img{
             margin-left: 40px;
         }
     }
+    
+    .kaitai_header{
+        position: relative;
+    }
+    
+    .kaitai_header h1{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .kaitai_header h2{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.footer{
+    /* Copyright© Meiwa group. All rights reserved. */
+
+    position: absolute;
+    width: 278px;
+    height: 16px;
+    left: 581px;
+    top: 1526px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: Theme name
 Author: Susumu Seino
@@ -435,5 +436,35 @@ html {
   padding: 0.7em;
   margin: 1.414em 0; }
 
+.header {
+  display: flex; }
+
 .kaitai_banner img + img {
   margin-left: 40px; }
+
+.kaitai .kaitai_header {
+  position: relative; }
+
+.kaitai .kaitai_header h1 {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.kaitai .kaitai_header h2 {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.footer {
+  /* Copyright© Meiwa group. All rights reserved. */
+  position: absolute;
+  width: 278px;
+  height: 16px;
+  left: 581px;
+  top: 1526px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000; }
