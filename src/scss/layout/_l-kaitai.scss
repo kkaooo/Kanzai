@@ -1,7 +1,23 @@
 @charset 'utf-8';
 
+.body{
+    position: relative;
+    width: 1440px;
+    height: 1561px;
+
+    background: #FFFFFF;
+}
+
 .header{
     display: flex;
+    
+    .header_logo{
+        position: absolute;
+        width: 151px;
+        height: 62px;
+        left: 220px;
+        top: 44px;
+    }
 }
 
 .kaitai{
@@ -25,6 +41,22 @@
         position: absolute;
         top: 0;
         left: 0;
+    }
+    
+    .buy_description{
+        position: absolute;
+        width: 1000px;
+        height: 16px;
+        left: 221px;
+        top: 450px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #212121;
     }
 }
 

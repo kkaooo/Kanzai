@@ -436,8 +436,20 @@ html {
   padding: 0.7em;
   margin: 1.414em 0; }
 
+.body {
+  position: relative;
+  width: 1440px;
+  height: 1561px;
+  background: #FFFFFF; }
+
 .header {
   display: flex; }
+  .header .header_logo {
+    position: absolute;
+    width: 151px;
+    height: 62px;
+    left: 220px;
+    top: 44px; }
 
 .kaitai_banner img + img {
   margin-left: 40px; }
@@ -454,6 +466,19 @@ html {
   position: absolute;
   top: 0;
   left: 0; }
+
+.kaitai .buy_description {
+  position: absolute;
+  width: 1000px;
+  height: 16px;
+  left: 221px;
+  top: 450px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121; }
 
 .footer {
   /* Copyright© Meiwa group. All rights reserved. */
