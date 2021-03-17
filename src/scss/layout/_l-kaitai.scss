@@ -18,6 +18,15 @@ body{
 
     background: #FFFFFF;
     
+    .header_logo_menu{
+        display: flex;
+        position: absolute;
+        width: 1001px;
+        height: 62px;
+        left: 220px;
+        top: 44px;
+    }
+    
     .header_logo{
 //        position: absolute;
         width: 151px;
@@ -26,7 +35,8 @@ body{
         top: 44px;
     }
     
-    .header_menu li{
+    .header_menu ul{
+        display: flex;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -49,23 +59,24 @@ body{
     
     .kaitai_header{
 //        position: relative;
+//        position: absolute;
         width: 1440px;
         height: 200px;
         left: 0px;
         top: 150px;
-    }
-    
-    .kaitai_header h1{
-        position: absolute;
+        h1{
+//        position: absolute;
         top: 0;
         left: 0;
     }
     
-    .kaitai_header h2{
-        position: absolute;
-        top: 0;
+        h2{
+//        position: absolute;
+        top: 25px;
         left: 0;
     }
+}
+    
     
     .buy_description{
 //        position: absolute;

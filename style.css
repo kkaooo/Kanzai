@@ -448,12 +448,20 @@ body {
   left: 0px;
   top: 0px;
   background: #FFFFFF; }
+  .header .header_logo_menu {
+    display: flex;
+    position: absolute;
+    width: 1001px;
+    height: 62px;
+    left: 220px;
+    top: 44px; }
   .header .header_logo {
     width: 151px;
     height: 62px;
     left: 220px;
     top: 44px; }
-  .header .header_menu li {
+  .header .header_menu ul {
+    display: flex;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -471,16 +479,12 @@ body {
   height: 200px;
   left: 0px;
   top: 150px; }
-
-.kaitai .kaitai_header h1 {
-  position: absolute;
-  top: 0;
-  left: 0; }
-
-.kaitai .kaitai_header h2 {
-  position: absolute;
-  top: 0;
-  left: 0; }
+  .kaitai .kaitai_header h1 {
+    top: 0;
+    left: 0; }
+  .kaitai .kaitai_header h2 {
+    top: 25px;
+    left: 0; }
 
 .kaitai .buy_description {
   width: 1000px;
