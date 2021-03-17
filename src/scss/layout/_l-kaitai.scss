@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-.body{
+body{
     position: relative;
     width: 1440px;
     height: 1561px;
@@ -10,9 +10,16 @@
 
 .header{
     display: flex;
+//    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
     
     .header_logo{
-        position: absolute;
+//        position: absolute;
         width: 151px;
         height: 62px;
         left: 220px;
@@ -20,8 +27,6 @@
     }
     
     .header_menu li{
-        float: left;
-        
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -35,6 +40,7 @@
 
 .kaitai{
     &_banner{
+//        position: absolute;
         text-align: center;
         img + img{
             margin-left: 40px;
@@ -42,7 +48,11 @@
     }
     
     .kaitai_header{
-        position: relative;
+//        position: relative;
+        width: 1440px;
+        height: 200px;
+        left: 0px;
+        top: 150px;
     }
     
     .kaitai_header h1{
@@ -58,7 +68,7 @@
     }
     
     .buy_description{
-        position: absolute;
+//        position: absolute;
         width: 1000px;
         height: 16px;
         left: 221px;
@@ -75,8 +85,6 @@
 }
 
 .footer{
-    /* Copyright© Meiwa group. All rights reserved. */
-
     position: absolute;
     width: 278px;
     height: 16px;
