@@ -36,6 +36,12 @@ body{
     }
     
     .header_menu ul{
+//        position: absolute;
+        width: 661px;
+        height: 26px;
+        left: 560px;
+        top: 62px;
+        
         display: flex;
         font-family: Roboto;
         font-style: normal;

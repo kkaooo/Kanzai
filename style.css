@@ -461,6 +461,10 @@ body {
     left: 220px;
     top: 44px; }
   .header .header_menu ul {
+    width: 661px;
+    height: 26px;
+    left: 560px;
+    top: 62px;
     display: flex;
     font-family: Roboto;
     font-style: normal;
