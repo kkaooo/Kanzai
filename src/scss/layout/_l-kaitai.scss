@@ -18,10 +18,24 @@
         left: 220px;
         top: 44px;
     }
+    
+    .header_menu li{
+        float: left;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #000000;
+
+    }
 }
 
 .kaitai{
     &_banner{
+        text-align: center;
         img + img{
             margin-left: 40px;
         }
