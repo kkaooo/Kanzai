@@ -28,7 +28,7 @@ body{
     }
     
     .header_logo{
-//        position: absolute;
+        position: absolute;
         width: 151px;
         height: 62px;
         left: 220px;
@@ -37,6 +37,8 @@ body{
     
     .header_menu ul{
 //        position: absolute;
+        
+        
         width: 661px;
         height: 26px;
         left: 560px;
@@ -52,6 +54,65 @@ body{
         color: #000000;
 
     }
+    
+    p.home{
+        position: absolute;
+        width: 40px;
+        height: 16px;
+        left: 560px;
+        top: 62px;
+
+        color: #618BBB;
+        
+//        position: absolute;
+//        width: 39px;
+//        height: 0px;
+//        left: 561px;
+//        top: 88px;
+
+        border-bottom: 1px solid #618BBB;
+    }
+    
+    p.sell{
+        position: absolute;
+        width: 126px;
+        height: 16px;
+        left: 629px;
+        top: 62px;
+    }
+    
+    p.buy{
+        position: absolute;
+        width: 126px;
+        height: 16px;
+        left: 784px;
+        top: 62px;
+    }
+    
+    p.FAQ{
+        position: absolute;
+        width: 84px;
+        height: 16px;
+        left: 939px;
+        top: 62px;
+    }
+    
+    p.company{
+        position: absolute;
+        width: 56px;
+        height: 16px;
+        left: 1052px;
+        top: 62px;
+    }
+    
+    p.contact{
+        position: absolute;
+        width: 84px;
+        height: 16px;
+        left: 1137px;
+        top: 62px;
+    }
+    
 }
 
 .kaitai{

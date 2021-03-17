@@ -456,6 +456,7 @@ body {
     left: 220px;
     top: 44px; }
   .header .header_logo {
+    position: absolute;
     width: 151px;
     height: 62px;
     left: 220px;
@@ -472,6 +473,44 @@ body {
     font-size: 14px;
     line-height: 16px;
     color: #000000; }
+  .header p.home {
+    position: absolute;
+    width: 40px;
+    height: 16px;
+    left: 560px;
+    top: 62px;
+    color: #618BBB;
+    border-bottom: 1px solid #618BBB; }
+  .header p.sell {
+    position: absolute;
+    width: 126px;
+    height: 16px;
+    left: 629px;
+    top: 62px; }
+  .header p.buy {
+    position: absolute;
+    width: 126px;
+    height: 16px;
+    left: 784px;
+    top: 62px; }
+  .header p.FAQ {
+    position: absolute;
+    width: 84px;
+    height: 16px;
+    left: 939px;
+    top: 62px; }
+  .header p.company {
+    position: absolute;
+    width: 56px;
+    height: 16px;
+    left: 1052px;
+    top: 62px; }
+  .header p.contact {
+    position: absolute;
+    width: 84px;
+    height: 16px;
+    left: 1137px;
+    top: 62px; }
 
 .kaitai_banner {
   text-align: center; }
