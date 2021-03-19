@@ -480,6 +480,7 @@ body {
     left: 560px;
     top: 62px;
     color: #618BBB;
+    padding-bottom: 10px;
     border-bottom: 1px solid #618BBB; }
   .header p.sell {
     position: absolute;
@@ -511,6 +512,29 @@ body {
     height: 16px;
     left: 1137px;
     top: 62px; }
+
+.footer {
+  position: absolute;
+  width: 278px;
+  height: 16px;
+  left: 581px;
+  top: 1526px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000; }
+  .footer hr {
+    width: 1439px;
+    height: 0px;
+    left: 0px;
+    top: 1460px;
+    border: 0.5px solid #000000; }
+  .footer .footer_links {
+    width: 1440px;
+    padding-top: 16px;
+    padding-bottom: 17px; }
 
 .kaitai .kaitai_banner {
   text-align: center; }
@@ -586,16 +610,3 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #212121; }
-
-.footer {
-  position: absolute;
-  width: 278px;
-  height: 16px;
-  left: 581px;
-  top: 1526px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  color: #000000; }

@@ -1,1 +1,157 @@
 @charset 'utf-8';
+
+body{
+    position: relative;
+    //    top: 0%;
+    //    left: 0%;
+    width: 1440px;
+    height: 1561px;
+
+    background: #FFFFFF;
+
+    //.wrapper {
+    ////    width: 100%;
+    //    overflow: hidden;
+    //}
+}
+
+.header{
+    display: flex;
+    //    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+
+    .header_logo_menu{
+        display: flex;
+        position: absolute;
+        width: 1001px;
+        height: 62px;
+        left: 220px;
+        top: 44px;
+    }
+
+    .header_logo{
+        position: absolute;
+        width: 151px;
+        height: 62px;
+        left: 220px;
+        top: 44px;
+    }
+
+    .header_menu ul{
+        //        position: absolute;
+
+
+        width: 661px;
+        height: 26px;
+        left: 560px;
+        top: 62px;
+
+        display: flex;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #000000;
+
+    }
+
+    p.home{
+        position: absolute;
+        width: 40px;
+        height: 16px;
+        left: 560px;
+        top: 62px;
+
+        color: #618BBB;
+
+        //        position: absolute;
+        //        width: 39px;
+        //        height: 0px;
+        //        left: 561px;
+        //        top: 88px;
+
+        padding-bottom: 10px;
+        border-bottom: 1px solid #618BBB;
+    }
+
+    p.sell{
+        position: absolute;
+        width: 126px;
+        height: 16px;
+        left: 629px;
+        top: 62px;
+    }
+
+    p.buy{
+        position: absolute;
+        width: 126px;
+        height: 16px;
+        left: 784px;
+        top: 62px;
+    }
+
+    p.FAQ{
+        position: absolute;
+        width: 84px;
+        height: 16px;
+        left: 939px;
+        top: 62px;
+    }
+
+    p.company{
+        position: absolute;
+        width: 56px;
+        height: 16px;
+        left: 1052px;
+        top: 62px;
+    }
+
+    p.contact{
+        position: absolute;
+        width: 84px;
+        height: 16px;
+        left: 1137px;
+        top: 62px;
+    }
+
+}
+
+.footer{
+    position: absolute;
+    width: 278px;
+    height: 16px;
+    left: 581px;
+    top: 1526px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+
+    hr{
+        //        position: absolute;
+        //        なぜかwidth: 1440px;にすると1441に、border: 1px;にすると2pxになる
+        width: 1439px;
+        height: 0px;
+        left: 0px;
+        top: 1460px;
+
+        border: 0.5px solid #000000;
+    }
+
+    .footer_links{
+        width: 1440px;
+        padding-top: 16px;
+        padding-bottom: 17px;
+    }
+}
