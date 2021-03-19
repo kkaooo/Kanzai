@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
 .kaitai{
-    .kaitai_banner{
+    &_banner{
 //        position: absolute;
         text-align: center;
         img + img{
@@ -42,7 +42,7 @@
         }
     }
     
-    .kaitai_header{
+    &_header{
 //        position: relative;
 //        position: absolute;
         width: 1440px;
@@ -50,7 +50,7 @@
         left: 0px;
         top: 150px;
         
-        .kaitai_header_text{
+        &_header_text{
         position: absolute;
         width: 192px;
         height: 101px;

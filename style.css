@@ -448,20 +448,19 @@ body {
   left: 0px;
   top: 0px;
   background: #FFFFFF; }
-  .header .header_logo_menu {
+  .header_logo_menu {
     display: flex;
     position: absolute;
     width: 1001px;
     height: 62px;
     left: 220px;
     top: 44px; }
-  .header .header_logo {
-    position: absolute;
+  .header img {
     width: 151px;
     height: 62px;
     left: 220px;
     top: 44px; }
-  .header .header_menu ul {
+  .header_menu {
     width: 661px;
     height: 26px;
     left: 560px;
@@ -473,45 +472,45 @@ body {
     font-size: 14px;
     line-height: 16px;
     color: #000000; }
-  .header p.home {
-    position: absolute;
-    width: 40px;
-    height: 16px;
-    left: 560px;
-    top: 62px;
-    color: #618BBB;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #618BBB; }
-  .header p.sell {
-    position: absolute;
-    width: 126px;
-    height: 16px;
-    left: 629px;
-    top: 62px; }
-  .header p.buy {
-    position: absolute;
-    width: 126px;
-    height: 16px;
-    left: 784px;
-    top: 62px; }
-  .header p.FAQ {
-    position: absolute;
-    width: 84px;
-    height: 16px;
-    left: 939px;
-    top: 62px; }
-  .header p.company {
-    position: absolute;
-    width: 56px;
-    height: 16px;
-    left: 1052px;
-    top: 62px; }
-  .header p.contact {
-    position: absolute;
-    width: 84px;
-    height: 16px;
-    left: 1137px;
-    top: 62px; }
+    .header_menu p.home {
+      position: absolute;
+      width: 40px;
+      height: 16px;
+      left: 560px;
+      top: 62px;
+      color: #618BBB;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #618BBB; }
+    .header_menu p.sell {
+      position: absolute;
+      width: 126px;
+      height: 16px;
+      left: 629px;
+      top: 62px; }
+    .header_menu p.buy {
+      position: absolute;
+      width: 126px;
+      height: 16px;
+      left: 784px;
+      top: 62px; }
+    .header_menu p.FAQ {
+      position: absolute;
+      width: 84px;
+      height: 16px;
+      left: 939px;
+      top: 62px; }
+    .header_menu p.company {
+      position: absolute;
+      width: 56px;
+      height: 16px;
+      left: 1052px;
+      top: 62px; }
+    .header_menu p.contact {
+      position: absolute;
+      width: 84px;
+      height: 16px;
+      left: 1137px;
+      top: 62px; }
 
 .footer {
   position: absolute;
@@ -531,30 +530,30 @@ body {
     left: 0px;
     top: 1460px;
     border: 0.5px solid #000000; }
-  .footer .footer_links {
+  .footer_links {
     width: 1440px;
     padding-top: 16px;
     padding-bottom: 17px; }
 
-.kaitai .kaitai_banner {
+.kaitai_banner {
   text-align: center; }
-  .kaitai .kaitai_banner img + img {
+  .kaitai_banner img + img {
     margin-left: 40px; }
-  .kaitai .kaitai_banner .yahoo {
+  .kaitai_banner .yahoo {
     position: absolute;
     width: 300px;
     height: 100px;
     left: 224px;
     top: 535px;
     background: #FCFCFC; }
-  .kaitai .kaitai_banner .kenbiya {
+  .kaitai_banner .kenbiya {
     position: absolute;
     width: 300px;
     height: 100px;
     left: 561px;
     top: 535px;
     background: #FCFCFC; }
-  .kaitai .kaitai_banner .rakumachi {
+  .kaitai_banner .rakumachi {
     position: absolute;
     width: 300px;
     height: 100px;
@@ -562,18 +561,18 @@ body {
     top: 535px;
     background: #FCFCFC; }
 
-.kaitai .kaitai_header {
+.kaitai_header {
   width: 1440px;
   height: 200px;
   left: 0px;
   top: 150px; }
-  .kaitai .kaitai_header .kaitai_header_text {
+  .kaitai_header_header_text {
     position: absolute;
     width: 192px;
     height: 101px;
     left: 220px;
     top: 200px; }
-    .kaitai .kaitai_header .kaitai_header_text h1 {
+    .kaitai_header_header_text h1 {
       top: 0;
       left: 0;
       width: 192px;
@@ -586,7 +585,7 @@ body {
       font-size: 48px;
       line-height: 56px;
       color: #333333; }
-    .kaitai .kaitai_header .kaitai_header_text h2 {
+    .kaitai_header_header_text h2 {
       width: 144px;
       height: 28px;
       left: 220px;
