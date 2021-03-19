@@ -439,6 +439,9 @@ body {
   position: relative;
   width: 1440px;
   height: 1561px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
   background: #FFFFFF; }
 
 .header {
@@ -460,9 +463,6 @@ body {
     left: 560px;
     top: 62px;
     display: flex;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px; }
     .header_menu a, .header_menu a:hover, .header_menu a:visited {
@@ -524,9 +524,6 @@ body {
   position: absolute;
   text-align: center;
   top: 1526px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 16px; }
   .footer a, .footer a:hover, .footer a:visited {
@@ -540,7 +537,8 @@ body {
     .footer_links li {
       display: inline; }
     .footer_links .contact::before, .footer_links .sitemap::before {
-      content: "/"; }
+      content: "/";
+      padding: 0 20px; }
   .footer_copyright {
     text-align: center;
     padding-top: 17px;

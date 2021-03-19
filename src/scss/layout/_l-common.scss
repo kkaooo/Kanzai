@@ -2,17 +2,14 @@
 
 body{
     position: relative;
-    //    top: 0%;
-    //    left: 0%;
     width: 1440px;
     height: 1561px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
 
     background: #FFFFFF;
-
-    //.wrapper {
-    ////    width: 100%;
-    //    overflow: hidden;
-    //}
 }
 
 .header{
@@ -41,9 +38,6 @@ body{
         top: 62px;
 
         display: flex;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
         font-size: 14px;
         line-height: 16px;
 
@@ -125,14 +119,8 @@ body{
 .footer{
     position: absolute;
     text-align: center;
-//    width: 278px;
-//    height: 16px;
-//    left: 581px;
     top: 1526px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
 
@@ -154,6 +142,7 @@ body{
         
         .contact::before,.sitemap::before{
             content: "/";
+            padding: 0 20px;
         }
     }
     
