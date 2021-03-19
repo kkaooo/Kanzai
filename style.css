@@ -534,29 +534,9 @@ body {
     padding-bottom: 17px;
     border: 1px solid #000000; }
   .footer_copyright {
-    text-align: center; }
-
-.kaitai_banner {
-  text-align: center; }
-  .kaitai_banner img + img {
-    margin-left: 37px;
-    width: 300px;
-    height: 100px; }
-  .kaitai_banner .yahoo {
-    position: absolute;
-    left: 224px;
-    top: 535px;
-    background: #FCFCFC; }
-  .kaitai_banner .kenbiya {
-    position: absolute;
-    left: 561px;
-    top: 535px;
-    background: #FCFCFC; }
-  .kaitai_banner .rakumachi {
-    position: absolute;
-    left: 901px;
-    top: 535px;
-    background: #FCFCFC; }
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 19px; }
 
 .kaitai_header {
   width: 1440px;
@@ -602,3 +582,25 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #212121; }
+
+.kaitai_banner {
+  text-align: center; }
+  .kaitai_banner img + img {
+    margin-left: 37px;
+    width: 300px;
+    height: 100px; }
+  .kaitai_banner .yahoo {
+    position: absolute;
+    left: 224px;
+    top: 535px;
+    background: #FCFCFC; }
+  .kaitai_banner .kenbiya {
+    position: absolute;
+    left: 561px;
+    top: 535px;
+    background: #FCFCFC; }
+  .kaitai_banner .rakumachi {
+    position: absolute;
+    left: 901px;
+    top: 535px;
+    background: #FCFCFC; }

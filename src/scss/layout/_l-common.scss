@@ -60,12 +60,6 @@ body{
         
         color: #618BBB;
 
-        //        position: absolute;
-        //        width: 39px;
-        //        height: 0px;
-        //        left: 561px;
-        //        top: 88px;
-
         padding-bottom: 10px;
         border-bottom: 1px solid #618BBB;
     }
@@ -150,5 +144,8 @@ body{
     
     &_copyright{
         text-align: center;
+        
+        padding-top: 17px;
+        padding-bottom: 19px;
     }
 }
