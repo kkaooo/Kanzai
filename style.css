@@ -536,6 +536,8 @@ body {
     padding-top: 16px;
     padding-bottom: 17px;
     border: 1px solid #000000; }
+    .footer_links .contact::before, .footer_links .sitemap::before {
+      content: "/"; }
   .footer_copyright {
     text-align: center;
     padding-top: 17px;

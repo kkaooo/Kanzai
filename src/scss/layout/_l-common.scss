@@ -139,13 +139,17 @@ body{
     a,a:hover,a:visited{
         color: #000000;
     }
-
+    
     &_links{
         width: 1440px;
         padding-top: 16px;
         padding-bottom: 17px;
         
         border: 1px solid #000000;
+        
+        .contact::before,.sitemap::before{
+            content: "/";
+        }
     }
     
     &_copyright{
