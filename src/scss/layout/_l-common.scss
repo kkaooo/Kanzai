@@ -140,21 +140,12 @@ body{
 
     color: #000000;
 
-    hr{
-        //        position: absolute;
-        //        なぜかwidth: 1440px;にすると1441に、border: 1px;にすると2pxになる
-        width: 1439px;
-        height: 0px;
-        left: 0px;
-        top: 1460px;
-
-        border: 0.5px solid #000000;
-    }
-
     &_links{
         width: 1440px;
         padding-top: 16px;
         padding-bottom: 17px;
+        
+        border: 1px solid #000000;
     }
     
     &_copyright{
