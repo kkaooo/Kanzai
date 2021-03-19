@@ -49,7 +49,7 @@ body{
 
         color: #000000;
 
-    p.home{
+    li.home{
         position: absolute;
         width: 40px;
         height: 16px;
@@ -64,7 +64,7 @@ body{
         border-bottom: 1px solid #618BBB;
     }
 
-    p.sell{
+    li.sell{
         position: absolute;
         width: 126px;
         height: 16px;
@@ -74,7 +74,7 @@ body{
         margin-bottom: 0;
     }
 
-    p.buy{
+    li.buy{
         position: absolute;
         width: 126px;
         height: 16px;
@@ -84,7 +84,7 @@ body{
         margin-bottom: 0;
     }
 
-    p.FAQ{
+    li.FAQ{
         position: absolute;
         width: 84px;
         height: 16px;
@@ -94,7 +94,7 @@ body{
         margin-bottom: 0;
     }
 
-    p.company{
+    li.company{
         position: absolute;
         width: 56px;
         height: 16px;
@@ -104,7 +104,7 @@ body{
         margin-bottom: 0;
     }
 
-    p.contact{
+    li.contact{
         position: absolute;
         width: 84px;
         height: 16px;

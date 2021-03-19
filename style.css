@@ -466,7 +466,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     color: #000000; }
-    .header_menu p.home {
+    .header_menu li.home {
       position: absolute;
       width: 40px;
       height: 16px;
@@ -477,7 +477,7 @@ body {
       color: #618BBB;
       padding-bottom: 10px;
       border-bottom: 1px solid #618BBB; }
-    .header_menu p.sell {
+    .header_menu li.sell {
       position: absolute;
       width: 126px;
       height: 16px;
@@ -485,7 +485,7 @@ body {
       top: 62px;
       margin-top: 0;
       margin-bottom: 0; }
-    .header_menu p.buy {
+    .header_menu li.buy {
       position: absolute;
       width: 126px;
       height: 16px;
@@ -493,7 +493,7 @@ body {
       top: 62px;
       margin-top: 0;
       margin-bottom: 0; }
-    .header_menu p.FAQ {
+    .header_menu li.FAQ {
       position: absolute;
       width: 84px;
       height: 16px;
@@ -501,7 +501,7 @@ body {
       top: 62px;
       margin-top: 0;
       margin-bottom: 0; }
-    .header_menu p.company {
+    .header_menu li.company {
       position: absolute;
       width: 56px;
       height: 16px;
@@ -509,7 +509,7 @@ body {
       top: 62px;
       margin-top: 0;
       margin-bottom: 0; }
-    .header_menu p.contact {
+    .header_menu li.contact {
       position: absolute;
       width: 84px;
       height: 16px;
