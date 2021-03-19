@@ -532,25 +532,21 @@ body {
 .kaitai_banner {
   text-align: center; }
   .kaitai_banner img + img {
-    margin-left: 40px; }
+    margin-left: 37px;
+    width: 300px;
+    height: 100px; }
   .kaitai_banner .yahoo {
     position: absolute;
-    width: 300px;
-    height: 100px;
     left: 224px;
     top: 535px;
     background: #FCFCFC; }
   .kaitai_banner .kenbiya {
     position: absolute;
-    width: 300px;
-    height: 100px;
     left: 561px;
     top: 535px;
     background: #FCFCFC; }
   .kaitai_banner .rakumachi {
     position: absolute;
-    width: 300px;
-    height: 100px;
     left: 901px;
     top: 535px;
     background: #FCFCFC; }
@@ -560,36 +556,30 @@ body {
   height: 200px;
   left: 0px;
   top: 150px; }
-  .kaitai_header_header_text {
+  .kaitai_header h1 {
     position: absolute;
     width: 192px;
-    height: 101px;
+    height: 56px;
     left: 220px;
-    top: 200px; }
-    .kaitai_header_header_text h1 {
-      top: 0;
-      left: 0;
-      width: 192px;
-      height: 56px;
-      left: 220px;
-      top: 200px;
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 48px;
-      line-height: 56px;
-      color: #333333; }
-    .kaitai_header_header_text h2 {
-      width: 144px;
-      height: 28px;
-      left: 220px;
-      top: 273px;
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 28px;
-      color: #333333; }
+    top: 200px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #333333; }
+  .kaitai_header h2 {
+    position: absolute;
+    width: 144px;
+    height: 28px;
+    left: 220px;
+    top: 273px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333; }
 
 .kaitai .buy_description {
   position: absolute;
