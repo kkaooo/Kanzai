@@ -472,6 +472,8 @@ body {
       height: 16px;
       left: 560px;
       top: 62px;
+      margin-top: 0;
+      margin-bottom: 0;
       color: #618BBB;
       padding-bottom: 10px;
       border-bottom: 1px solid #618BBB; }
@@ -480,37 +482,45 @@ body {
       width: 126px;
       height: 16px;
       left: 629px;
-      top: 62px; }
+      top: 62px;
+      margin-top: 0;
+      margin-bottom: 0; }
     .header_menu p.buy {
       position: absolute;
       width: 126px;
       height: 16px;
       left: 784px;
-      top: 62px; }
+      top: 62px;
+      margin-top: 0;
+      margin-bottom: 0; }
     .header_menu p.FAQ {
       position: absolute;
       width: 84px;
       height: 16px;
       left: 939px;
-      top: 62px; }
+      top: 62px;
+      margin-top: 0;
+      margin-bottom: 0; }
     .header_menu p.company {
       position: absolute;
       width: 56px;
       height: 16px;
       left: 1052px;
-      top: 62px; }
+      top: 62px;
+      margin-top: 0;
+      margin-bottom: 0; }
     .header_menu p.contact {
       position: absolute;
       width: 84px;
       height: 16px;
       left: 1137px;
-      top: 62px; }
+      top: 62px;
+      margin-top: 0;
+      margin-bottom: 0; }
 
 .footer {
   position: absolute;
-  width: 278px;
-  height: 16px;
-  left: 581px;
+  text-align: center;
   top: 1526px;
   font-family: Roboto;
   font-style: normal;
@@ -528,6 +538,8 @@ body {
     width: 1440px;
     padding-top: 16px;
     padding-bottom: 17px; }
+  .footer_copyright {
+    text-align: center; }
 
 .kaitai_banner {
   text-align: center; }
