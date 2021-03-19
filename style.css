@@ -535,7 +535,10 @@ body {
     width: 1440px;
     padding-top: 16px;
     padding-bottom: 17px;
-    border: 1px solid #000000; }
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000; }
+    .footer_links li {
+      display: inline; }
     .footer_links .contact::before, .footer_links .sitemap::before {
       content: "/"; }
   .footer_copyright {
