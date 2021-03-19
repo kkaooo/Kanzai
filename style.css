@@ -448,14 +448,8 @@ body {
   left: 0px;
   top: 0px;
   background: #FFFFFF; }
-  .header_logo_menu {
-    display: flex;
-    position: absolute;
-    width: 1001px;
-    height: 62px;
-    left: 220px;
-    top: 44px; }
   .header img {
+    position: absolute;
     width: 151px;
     height: 62px;
     left: 220px;
