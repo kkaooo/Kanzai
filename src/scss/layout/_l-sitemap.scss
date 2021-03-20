@@ -1,5 +1,9 @@
 @charset 'utf-8';
 
+body{
+    height: 1480px;
+}
+
 .sitemap{
     &_header{
         position: absolute;
@@ -8,11 +12,8 @@
             
         h1{
             position: absolute;
-            width: 192px;
+            width: 288px;
             height: 56px;
-            left: 220px;
-            top: 200px;
-            margin: 0;
 
             font-family: Roboto;
             font-style: normal;
@@ -20,7 +21,7 @@
             font-size: 48px;
             line-height: 56px;
 
-            color: #333333;
+            color: #000000;
     }
     
 }
@@ -49,7 +50,7 @@
             height: 100px;
 //            position: absolute;
         }
-        .yahoo{
+        .sell_buy{
             position: absolute;
             left: 224px;
             top: 535px;
@@ -58,23 +59,5 @@
 //            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
         
-        .kenbiya{
-            position: absolute;
-
-            left: 561px;
-            top: 535px;
-
-            background: #FCFCFC;
-//            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-        
-        .rakumachi{
-            position: absolute;
-            left: 901px;
-            top: 535px;
-
-            background: #FCFCFC;
-//            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
     }
 }
