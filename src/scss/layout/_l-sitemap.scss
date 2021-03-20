@@ -2,6 +2,11 @@
 
 body{
     height: 1480px;
+
+    a,a:hover,a:visited{
+        color: #000000;
+    }
+    
 }
 
 .sitemap_header{
@@ -28,12 +33,9 @@ body{
     
     .sitemap{
         &_title{
-            position: absolute;
             display: flex;
             width: 260px;
             height: 28px;
-            left: 241px;
-            top: 450px;
 
             font-weight: bold;
             font-size: 24px;
@@ -46,8 +48,6 @@ body{
             position: absolute;
             width: 236px;
             height: 20px;
-            left: 241px;
-            top: 521px;
 
             font-family: Noto Sans JP;
             font-weight: normal;
@@ -56,8 +56,30 @@ body{
 
             color: #000000;
             
-            a,a:hover,a:visited{
-                color: #000000;
-            }
         }
+        
+        .sell_buy{
+            position: absolute;
+            left: 241px;
+            top: 450px;
+        }
+        
+        .question{
+            position: absolute;
+            left: 590px;
+            top: 450px;
+        }
+        
+        .company{
+            position: absolute;
+            left: 937px;
+            top: 450px;
+        }
+        
+        .privacy{
+            position: absolute;
+            left: 937px;
+            top: 551px;
+        }
+        
     }

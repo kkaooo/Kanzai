@@ -950,6 +950,8 @@ body {
 
 body {
   height: 1480px; }
+  body a, body a:hover, body a:visited {
+    color: #000000; }
 
 .sitemap_header img {
   position: absolute;
@@ -966,12 +968,9 @@ body {
   color: #000000; }
 
 .sitemap_title {
-  position: absolute;
   display: flex;
   width: 260px;
   height: 28px;
-  left: 241px;
-  top: 450px;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
@@ -981,15 +980,31 @@ body {
   position: absolute;
   width: 236px;
   height: 20px;
-  left: 241px;
-  top: 521px;
   font-family: Noto Sans JP;
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
   color: #000000; }
-  .sitemap_contents a, .sitemap_contents a:hover, .sitemap_contents a:visited {
-    color: #000000; }
+
+.sitemap .sell_buy {
+  position: absolute;
+  left: 241px;
+  top: 450px; }
+
+.sitemap .question {
+  position: absolute;
+  left: 590px;
+  top: 450px; }
+
+.sitemap .company {
+  position: absolute;
+  left: 937px;
+  top: 450px; }
+
+.sitemap .privacy {
+  position: absolute;
+  left: 937px;
+  top: 551px; }
 
 .kaitai_header {
   width: 1440px;
