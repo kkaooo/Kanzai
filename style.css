@@ -522,7 +522,6 @@ body {
 .footer {
   position: absolute;
   text-align: center;
-  top: 1526px;
   font-size: 14px;
   line-height: 16px; }
   .footer a, .footer a:hover, .footer a:visited {
@@ -881,6 +880,9 @@ body {
     top: 535px;
     background: #FCFCFC; }
 
+.footer {
+  top: 1526px; }
+
 .kaitai_header {
   width: 1440px;
   height: 200px;
@@ -1018,6 +1020,9 @@ body {
   left: 917px;
   top: 551px; }
 
+.footer {
+  top: 1526px; }
+
 .kaitai_header {
   width: 1440px;
   height: 200px;
@@ -1085,6 +1090,9 @@ body {
     top: 535px;
     background: #FCFCFC; }
 
+body {
+  height: 2890px; }
+
 .uritai_header {
   width: 1440px;
   height: 200px;
@@ -1118,7 +1126,6 @@ body {
     color: #333333; }
 
 .uritai .sell_procedure .procedure_title {
-  width: 189px;
   height: 28px;
   font-weight: bold;
   font-size: 24px;
@@ -1127,5 +1134,39 @@ body {
 
 .uritai .sell_procedure .soudan {
   position: absolute;
+  width: 189px;
   left: 377px;
   top: 497px; }
+
+.uritai .sell_procedure .search_satei {
+  position: absolute;
+  width: 237px;
+  left: 377px;
+  top: 655px; }
+
+.uritai .sell_procedure .baikai_contract {
+  position: absolute;
+  width: 141px;
+  left: 377px;
+  top: 963px; }
+
+.uritai .sell_procedure .boshu_apply {
+  position: absolute;
+  width: 321px;
+  left: 377px;
+  top: 1180px; }
+
+.uritai .sell_procedure .contract {
+  position: absolute;
+  width: 189px;
+  left: 377px;
+  top: 1531px; }
+
+.uritai .sell_procedure .get_house {
+  position: absolute;
+  width: 93px;
+  left: 378px;
+  top: 1845px; }
+
+.footer {
+  top: 2793px; }

@@ -1,5 +1,9 @@
 @charset 'utf-8';
 
+body{
+    height: 2890px;
+}
+
 .uritai{
     &_header{
 //        position: absolute;
@@ -45,9 +49,8 @@
     
     .sell_procedure{
         .procedure_title{
-            width: 189px;
             height: 28px;
-
+            
             font-weight: bold;
             font-size: 24px;
             line-height: 28px;
@@ -61,30 +64,51 @@
         
         .soudan{
             position: absolute;
+            width: 189px;
             left: 377px;
             top: 497px;
         }
         
         .search_satei{
-            
+            position: absolute;
+            width: 237px;
+            left: 377px;
+            top: 655px;
         }
         
         .baikai_contract{
-            
+            position: absolute;
+            width: 141px;
+            left: 377px;
+            top: 963px;
+
         }
         
         .boshu_apply{
-            
+            position: absolute;
+            width: 321px;
+            left: 377px;
+            top: 1180px;
         }
         
         .contract{
-            
+            position: absolute;
+            width: 189px;
+            left: 377px;
+            top: 1531px;
         }
         
         .get_house{
-            
+            position: absolute;
+            width: 93px;
+            left: 378px;
+            top: 1845px;
         }
         
     }
     
+}
+
+.footer{
+    top: 2793px;
 }
