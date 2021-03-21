@@ -965,13 +965,14 @@ body {
   left: 259px;
   width: 288px;
   height: 56px;
+  margin: 0;
   font-size: 48px;
   line-height: 56px;
   color: #000000; }
 
 .sitemap_title {
   display: flex;
-  width: 300px;
+  width: 280px;
   height: 28px;
   font-weight: bold;
   font-size: 24px;
@@ -990,28 +991,31 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #000000;
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-left: 20px; }
 
 .sitemap .sell_buy {
   position: absolute;
-  left: 241px;
+  left: 221px;
   top: 450px; }
   .sitemap .sell_buy a {
     padding-bottom: 20px; }
 
 .sitemap .question {
   position: absolute;
-  left: 590px;
+  left: 570px;
   top: 450px; }
+  .sitemap .question a {
+    padding-bottom: 20px; }
 
 .sitemap .company {
   position: absolute;
-  left: 937px;
+  left: 917px;
   top: 450px; }
 
 .sitemap .privacy {
   position: absolute;
-  left: 937px;
+  left: 917px;
   top: 551px; }
 
 .kaitai_header {
