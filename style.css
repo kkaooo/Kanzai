@@ -1135,6 +1135,14 @@ body {
     padding-bottom: 13px; }
   .uritai .sell_procedure li {
     padding: 60px 0; }
+  .uritai .sell_procedure .open_procedure_text {
+    position: absolute;
+    left: 83.61%;
+    right: 15.28%;
+    top: 17.89%;
+    bottom: 81.07%;
+    background: #000000;
+    transform: rotate(90deg); }
   .uritai .sell_procedure .procedure_text {
     width: 870px;
     height: 24px;
