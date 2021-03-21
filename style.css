@@ -961,6 +961,8 @@ body {
 
 .sitemap_header h1 {
   position: absolute;
+  top: 222px;
+  left: 259px;
   width: 288px;
   height: 56px;
   font-size: 48px;
@@ -969,12 +971,15 @@ body {
 
 .sitemap_title {
   display: flex;
-  width: 260px;
+  width: 300px;
   height: 28px;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  color: #000000; }
+  color: #000000;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #618BBB; }
 
 .sitemap_contents {
   position: absolute;
@@ -984,12 +989,15 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  color: #000000; }
+  color: #000000;
+  padding-top: 20px; }
 
 .sitemap .sell_buy {
   position: absolute;
   left: 241px;
   top: 450px; }
+  .sitemap .sell_buy a {
+    padding-bottom: 20px; }
 
 .sitemap .question {
   position: absolute;
