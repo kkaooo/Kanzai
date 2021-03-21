@@ -1116,3 +1116,16 @@ body {
     font-size: 24px;
     line-height: 28px;
     color: #333333; }
+
+.uritai .sell_procedure .procedure_title {
+  width: 189px;
+  height: 28px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000; }
+
+.uritai .sell_procedure .soudan {
+  position: absolute;
+  left: 377px;
+  top: 497px; }
