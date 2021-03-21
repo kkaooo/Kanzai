@@ -1125,6 +1125,14 @@ body {
     line-height: 28px;
     color: #333333; }
 
+.uritai .sell_procedure .yajirushi {
+  position: absolute;
+  width: 116px;
+  height: 136px;
+  left: 220px;
+  top: 450px;
+  background: #618BBB; }
+
 .uritai .sell_procedure .procedure_title {
   height: 28px;
   font-weight: bold;
