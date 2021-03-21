@@ -1125,62 +1125,57 @@ body {
     line-height: 28px;
     color: #333333; }
 
-.uritai .sell_procedure li {
-  padding: 60px 0; }
-
-.uritai .sell_procedure .procedure_title {
+.uritai .sell_procedure {
   height: 28px;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
   color: #000000; }
-
-.uritai .sell_procedure .procedure_text {
-  width: 870px;
-  height: 24px;
-  left: 377px;
-  top: 538px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  /* identical to box height, or 171% */
-  color: #000000; }
-
-.uritai .sell_procedure .soudan {
-  position: absolute;
-  width: 189px;
-  left: 377px;
-  top: 497px; }
-
-.uritai .sell_procedure .search_satei {
-  position: absolute;
-  width: 237px;
-  left: 377px;
-  top: 655px; }
-
-.uritai .sell_procedure .baikai_contract {
-  position: absolute;
-  width: 141px;
-  left: 377px;
-  top: 963px; }
-
-.uritai .sell_procedure .boshu_apply {
-  position: absolute;
-  width: 321px;
-  left: 377px;
-  top: 1180px; }
-
-.uritai .sell_procedure .contract {
-  position: absolute;
-  width: 189px;
-  left: 377px;
-  top: 1531px; }
-
-.uritai .sell_procedure .get_house {
-  position: absolute;
-  width: 93px;
-  left: 378px;
-  top: 1845px; }
+  .uritai .sell_procedure .procedure_title {
+    padding-bottom: 13px; }
+  .uritai .sell_procedure li {
+    padding: 60px 0; }
+  .uritai .sell_procedure .procedure_text {
+    width: 870px;
+    height: 24px;
+    left: 377px;
+    top: 538px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    color: #000000;
+    border-bottom: 4px solid #E6E6E6; }
+  .uritai .sell_procedure .soudan {
+    position: absolute;
+    width: 189px;
+    left: 377px;
+    top: 497px; }
+  .uritai .sell_procedure .search_satei {
+    position: absolute;
+    width: 237px;
+    left: 377px;
+    top: 655px; }
+  .uritai .sell_procedure .baikai_contract {
+    position: absolute;
+    width: 141px;
+    left: 377px;
+    top: 963px; }
+  .uritai .sell_procedure .boshu_apply {
+    position: absolute;
+    width: 321px;
+    left: 377px;
+    top: 1180px; }
+  .uritai .sell_procedure .contract {
+    position: absolute;
+    width: 189px;
+    left: 377px;
+    top: 1531px; }
+  .uritai .sell_procedure .get_house {
+    position: absolute;
+    width: 93px;
+    left: 378px;
+    top: 1845px; }
 
 .footer {
   top: 2793px; }
