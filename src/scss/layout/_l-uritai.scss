@@ -56,14 +56,6 @@ body{
 
             color: #000000;
         
-        .procedure_title{
-            padding-bottom: 13px;
-        }
-        
-        li{
-            padding: 60px 0;
-        }
-        
         .open_procedure_text{
             position: absolute;
             left: 83.61%;
@@ -73,6 +65,14 @@ body{
 
             background: #000000;
             transform: rotate(90deg);
+        }
+        
+        .procedure_title{
+            padding-bottom: 13px;
+        }
+        
+        li{
+            padding: 60px 0;
         }
         
         .procedure_text{
@@ -91,11 +91,32 @@ body{
             border-bottom: 4px solid #E6E6E6;
         }
         
+        .procedure_text_hosoku{
+            width: 843px;
+            height: 73px;
+            left: 377px;
+            top: 787px;
+
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+
+            color: #000000;
+        }
+        
         .soudan{
             position: absolute;
             width: 189px;
             left: 377px;
             top: 497px;
+            
+            .contact_button{
+                font-size: 14px;
+                
+                color: #ffffff;
+                background-color: #3f628a;
+            }
         }
         
         .search_satei{
@@ -111,6 +132,9 @@ body{
             left: 377px;
             top: 963px;
 
+            .baikai_kinds{
+                display: flex;
+            }
         }
         
         .boshu_apply{

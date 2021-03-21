@@ -1131,10 +1131,6 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #000000; }
-  .uritai .sell_procedure .procedure_title {
-    padding-bottom: 13px; }
-  .uritai .sell_procedure li {
-    padding: 60px 0; }
   .uritai .sell_procedure .open_procedure_text {
     position: absolute;
     left: 83.61%;
@@ -1143,6 +1139,10 @@ body {
     bottom: 81.07%;
     background: #000000;
     transform: rotate(90deg); }
+  .uritai .sell_procedure .procedure_title {
+    padding-bottom: 13px; }
+  .uritai .sell_procedure li {
+    padding: 60px 0; }
   .uritai .sell_procedure .procedure_text {
     width: 870px;
     height: 24px;
@@ -1154,11 +1154,25 @@ body {
     /* identical to box height, or 171% */
     color: #000000;
     border-bottom: 4px solid #E6E6E6; }
+  .uritai .sell_procedure .procedure_text_hosoku {
+    width: 843px;
+    height: 73px;
+    left: 377px;
+    top: 787px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #000000; }
   .uritai .sell_procedure .soudan {
     position: absolute;
     width: 189px;
     left: 377px;
     top: 497px; }
+    .uritai .sell_procedure .soudan .contact_button {
+      font-size: 14px;
+      color: #ffffff;
+      background-color: #3f628a; }
   .uritai .sell_procedure .search_satei {
     position: absolute;
     width: 237px;
@@ -1169,6 +1183,8 @@ body {
     width: 141px;
     left: 377px;
     top: 963px; }
+    .uritai .sell_procedure .baikai_contract .baikai_kinds {
+      display: flex; }
   .uritai .sell_procedure .boshu_apply {
     position: absolute;
     width: 321px;
