@@ -1132,6 +1132,17 @@ body {
   line-height: 28px;
   color: #000000; }
 
+.uritai .sell_procedure .procedure_text {
+  width: 870px;
+  height: 24px;
+  left: 377px;
+  top: 538px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  color: #000000; }
+
 .uritai .sell_procedure .soudan {
   position: absolute;
   width: 189px;
