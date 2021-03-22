@@ -58,6 +58,24 @@ body{
         color: #212121;
     }
     
+    .company_profile{
+        &_contents{
+            position: absolute;
+            left: 220px;
+            top: 719px;
+            width: 1000px;
+            height: 1002px;
+            
+            .contents_gray{
+                background: #F1F1F1;
+            }
+            
+            .contents_white{
+                background: #FFFFFF;
+            }
+        }
+    }
+    
     &_access{
         img{
         position: absolute;

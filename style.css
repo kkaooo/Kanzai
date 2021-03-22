@@ -587,6 +587,17 @@ body {
   line-height: 16px;
   color: #212121; }
 
+.company .company_profile_contents {
+  position: absolute;
+  left: 220px;
+  top: 719px;
+  width: 1000px;
+  height: 1002px; }
+  .company .company_profile_contents .contents_gray {
+    background: #F1F1F1; }
+  .company .company_profile_contents .contents_white {
+    background: #FFFFFF; }
+
 .company_access img {
   position: absolute;
   width: 350px;
