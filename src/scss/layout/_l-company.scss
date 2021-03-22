@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-.kaitai{
+.company{
     &_header{
         width: 1440px;
         height: 200px;
@@ -42,7 +42,7 @@
     }
 }
     
-    .buy_description{
+    .about_sales_department{
         position: absolute;
         width: 1000px;
         height: 16px;
@@ -56,42 +56,5 @@
         line-height: 16px;
 
         color: #212121;
-    }
-    &_banner{
-//        position: absolute;
-        text-align: center;
-        img + img{
-            margin-left: 37px;
-            width: 300px;
-            height: 100px;
-//            position: absolute;
-        }
-        .yahoo{
-            position: absolute;
-            left: 224px;
-            top: 535px;
-
-            background: #FCFCFC;
-//            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-        
-        .kenbiya{
-            position: absolute;
-
-            left: 561px;
-            top: 535px;
-
-            background: #FCFCFC;
-//            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-        
-        .rakumachi{
-            position: absolute;
-            left: 901px;
-            top: 535px;
-
-            background: #FCFCFC;
-//            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
     }
 }
