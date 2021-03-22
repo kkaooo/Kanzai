@@ -542,6 +542,9 @@ body {
     padding-top: 17px;
     padding-bottom: 19px; }
 
+body {
+  height: 2580px; }
+
 .company_header {
   width: 1440px;
   height: 200px;
@@ -552,14 +555,11 @@ body {
     width: 192px;
     height: 56px;
     left: 220px;
-    top: 200px;
-    margin: 0;
-    font-family: Roboto;
-    font-style: normal;
+    top: 222px;
     font-weight: bold;
     font-size: 48px;
     line-height: 56px;
-    color: #333333; }
+    color: #000000; }
   .company_header h2 {
     position: absolute;
     width: 144px;
@@ -586,6 +586,21 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #212121; }
+
+.company_access img {
+  position: absolute;
+  width: 350px;
+  height: 373px;
+  left: 220px;
+  top: 1861px; }
+
+.company_access .company_info {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  left: 220px;
+  top: 2261px;
+  background: #F1F1F1; }
 
 .kaitai_header {
   width: 1440px;
