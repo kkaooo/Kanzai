@@ -66,12 +66,50 @@ body{
             width: 1000px;
             height: 1002px;
             
+            .company_profile_title{
+                width: 100px;
+                height: 20px;
+                left: 260px;
+                top: 739px;
+
+                font-family: Noto Sans JP;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+
+                color: #000000;
+            }
+            
+            .company_profile_item{
+                width: 750px;
+                height: 20px;
+                left: 470px;
+                top: 739px;
+
+                font-family: Noto Sans JP;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+
+                color: #000000;
+            }
+            
             .contents_gray{
+                display: flex;
+                padding: 20px 0 20px 40px;
                 background: #F1F1F1;
             }
             
             .contents_white{
+                display: flex;
+                padding: 20px 0 20px 40px;
                 background: #FFFFFF;
+            }
+            
+            .item_list{
+                display:block;
             }
         }
     }
