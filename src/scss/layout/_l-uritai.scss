@@ -62,8 +62,10 @@ body{
             right: 15.28%;
             top: 17.89%;
             bottom: 81.07%;
+            
+            width: 16px;
+            height: 30px;
 
-            background: #000000;
             transform: rotate(90deg);
         }
         
@@ -107,9 +109,12 @@ body{
         
         .soudan{
             position: absolute;
-            width: 189px;
             left: 377px;
             top: 497px;
+            
+            .procedure_title{
+                width: 189px;
+            }
             
             .contact_button{
                 font-size: 14px;
@@ -121,16 +126,22 @@ body{
         
         .search_satei{
             position: absolute;
-            width: 237px;
             left: 377px;
             top: 655px;
+            
+            .procedure_title{
+                width: 237px;
+            }
         }
         
         .baikai_contract{
             position: absolute;
-            width: 141px;
             left: 377px;
             top: 963px;
+            
+            .procedure_title{
+                width: 141px;
+            }
 
             .baikai_kinds{
                 display: flex;
@@ -139,9 +150,12 @@ body{
         
         .boshu_apply{
             position: absolute;
-            width: 321px;
             left: 377px;
             top: 1180px;
+            
+            .procedure_title{
+                width: 321px;
+            }
         }
         
         .contract{
