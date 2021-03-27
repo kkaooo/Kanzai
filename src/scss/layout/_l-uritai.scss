@@ -80,6 +80,10 @@ body{
             transition: .2s transform ease;
         }
         
+        details[open] summary::after{
+            transform: rotate(270deg);
+        }
+        
         .procedure_title{
             padding-bottom: 13px;
         }

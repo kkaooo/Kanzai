@@ -1181,6 +1181,8 @@ body {
     margin: 0 .3em 0 0;
     transform: rotate(90deg);
     transition: .2s transform ease; }
+  .uritai .sell_procedure details[open] summary::after {
+    transform: rotate(270deg); }
   .uritai .sell_procedure .procedure_title {
     padding-bottom: 13px; }
   .uritai .sell_procedure ul li {
