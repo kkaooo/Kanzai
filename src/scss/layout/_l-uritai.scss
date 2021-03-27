@@ -88,10 +88,10 @@ body{
         
         //        animation→参考：https://rui-log.com/details-accordion/
         details[open] .procedure_text_hosoku{
-            animation: fadeIn 0.25s ease;
+            animation: SlideIn 0.25s ease;
         }
 
-        @keyframes fadeIn {
+        @keyframes SlideIn {
             0% {
                 opacity: 0;
                 transform: translateY(-10px);

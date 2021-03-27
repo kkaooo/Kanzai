@@ -1184,9 +1184,9 @@ body {
   .uritai .sell_procedure details[open] summary::after {
     transform: rotate(270deg); }
   .uritai .sell_procedure details[open] .procedure_text_hosoku {
-    animation: fadeIn 0.25s ease; }
+    animation: SlideIn 0.25s ease; }
 
-@keyframes fadeIn {
+@keyframes SlideIn {
   0% {
     opacity: 0;
     transform: translateY(-10px); }
