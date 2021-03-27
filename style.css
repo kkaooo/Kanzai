@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
 Theme Name: Theme name
 Author: Susumu Seino
@@ -1167,7 +1168,7 @@ body {
   color: #000000; }
   .uritai .sell_procedure summary {
     outline: none; }
-  .uritai .sell_procedure .open_procedure_text {
+  .uritai .sell_procedure summary::after {
     position: absolute;
     left: 83.61%;
     right: 15.28%;
@@ -1175,7 +1176,11 @@ body {
     bottom: 81.07%;
     width: 16px;
     height: 30px;
-    transform: rotate(90deg); }
+    display: inline-block;
+    content: "〉";
+    margin: 0 .3em 0 0;
+    transform: rotate(90deg);
+    transition: .2s transform ease; }
   .uritai .sell_procedure .procedure_title {
     padding-bottom: 13px; }
   .uritai .sell_procedure ul li {

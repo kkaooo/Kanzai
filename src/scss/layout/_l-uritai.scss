@@ -63,17 +63,21 @@ body{
             outline: none;
         }
             
-        .open_procedure_text{
+        summary::after {
             position: absolute;
             left: 83.61%;
             right: 15.28%;
             top: 17.89%;
             bottom: 81.07%;
-            
+                        
             width: 16px;
             height: 30px;
-
+            
+            display: inline-block;
+            content: "〉";
+            margin: 0 .3em 0 0;
             transform: rotate(90deg);
+            transition: .2s transform ease;
         }
         
         .procedure_title{
