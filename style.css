@@ -1158,11 +1158,15 @@ body {
     color: #333333; }
 
 .uritai .sell_procedure {
-  height: 28px;
+  height: 1706px;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
+  padding: 0;
+  margin: 0;
   color: #000000; }
+  .uritai .sell_procedure summary {
+    outline: none; }
   .uritai .sell_procedure .open_procedure_text {
     position: absolute;
     left: 83.61%;
@@ -1174,7 +1178,7 @@ body {
     transform: rotate(90deg); }
   .uritai .sell_procedure .procedure_title {
     padding-bottom: 13px; }
-  .uritai .sell_procedure li {
+  .uritai .sell_procedure ul li {
     padding: 60px 0; }
   .uritai .sell_procedure .procedure_text {
     width: 870px;

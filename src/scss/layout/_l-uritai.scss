@@ -48,14 +48,21 @@ body{
 }
     
     .sell_procedure{
-            height: 28px;
+            height: 1706px;
 
             font-weight: bold;
             font-size: 24px;
             line-height: 28px;
+            
+            padding: 0;
+            margin: 0;
 
             color: #000000;
-        
+            
+        summary{
+            outline: none;
+        }
+            
         .open_procedure_text{
             position: absolute;
             left: 83.61%;
@@ -73,7 +80,7 @@ body{
             padding-bottom: 13px;
         }
         
-        li{
+         ul li{
             padding: 60px 0;
         }
         
