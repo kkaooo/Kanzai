@@ -63,6 +63,7 @@ body{
             outline: none;
         }
             
+//        "〉"→参考：https://pixelog.net/post/rn7zja/
         summary::after {
             position: absolute;
             left: 83.61%;
@@ -83,6 +84,24 @@ body{
         details[open] summary::after{
             transform: rotate(270deg);
         }
+//        "〉"→参考：https://pixelog.net/post/rn7zja/
+        
+        //        animation→参考：https://rui-log.com/details-accordion/
+        details[open] .procedure_text_hosoku{
+            animation: fadeIn 0.25s ease;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            100% {
+                opacity: 1;
+                transform: none;
+            }
+        }
+        //        animation→参考：https://rui-log.com/details-accordion/
         
         .procedure_title{
             padding-bottom: 13px;
