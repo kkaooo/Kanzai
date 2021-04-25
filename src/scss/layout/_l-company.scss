@@ -83,6 +83,10 @@ body{
                 line-height: 20px;
 
                 color: #000000;
+                
+                display: flex;
+                margin: auto;
+                
             }
             
             .company_profile_item{
@@ -101,73 +105,56 @@ body{
                     font-size: 18px;
                 }
                 
+                width: 750px;
+                left: 470px;
+                
                 .item_name{
-                    width: 750px;
                     height: 20px;
-                    left: 470px;
                     top: 739px;
                 }
                 
                 .item_address{
-                    width: 750px;
                     height: 40px;
-                    left: 470px;
                     top: 798px;
                 }
                 
                 .item_leader{
-                    width: 750px;
                     height: 20px;
-                    left: 470px;
                     top: 878px;
                 }
                 
                 .item_list_work{
-                    width: 750px;
                     height: 119px;
-                    left: 470px;
                     top: 938px;
                 }
                 
                 .item_money{
-                    width: 750px;
                     height: 20px;
-                    left: 470px;
                     top: 1097px;
                 }
                 
                 .item_tel{
-                    width: 750px;
                     height: 58px;
-                    left: 470px;
                     top: 1155px;
                 }
                 
                 .item_fax{
-                    width: 750px;
                     height: 62px;
-                    left: 470px;
                     top: 1253px;
                 }
                 
                 .item_license{
-                    width: 750px;
                     height: 20px;
-                    left: 470px;
                     top: 1357px;
                 }
                 
                 .item_kind{
-                    width: 750px;
                     height: 20px;
-                    left: 470px;
                     top: 1417px;
                 }
                 
                 .item_list_companies{
-                    width: 750px;
                     height: 219px;
-                    left: 470px;
                     top: 1476px;
                 }
             }

@@ -605,7 +605,9 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
-    color: #000000; }
+    color: #000000;
+    display: flex;
+    margin: auto; }
   .company .company_profile_contents .company_profile_item {
     font-family: Noto Sans JP;
     font-style: normal;
@@ -613,59 +615,41 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #000000;
-    padding-left: 110px; }
+    padding-left: 110px;
+    width: 750px;
+    left: 470px; }
     .company .company_profile_contents .company_profile_item span {
       font-weight: bold;
       font-size: 18px; }
     .company .company_profile_contents .company_profile_item .item_name {
-      width: 750px;
       height: 20px;
-      left: 470px;
       top: 739px; }
     .company .company_profile_contents .company_profile_item .item_address {
-      width: 750px;
       height: 40px;
-      left: 470px;
       top: 798px; }
     .company .company_profile_contents .company_profile_item .item_leader {
-      width: 750px;
       height: 20px;
-      left: 470px;
       top: 878px; }
     .company .company_profile_contents .company_profile_item .item_list_work {
-      width: 750px;
       height: 119px;
-      left: 470px;
       top: 938px; }
     .company .company_profile_contents .company_profile_item .item_money {
-      width: 750px;
       height: 20px;
-      left: 470px;
       top: 1097px; }
     .company .company_profile_contents .company_profile_item .item_tel {
-      width: 750px;
       height: 58px;
-      left: 470px;
       top: 1155px; }
     .company .company_profile_contents .company_profile_item .item_fax {
-      width: 750px;
       height: 62px;
-      left: 470px;
       top: 1253px; }
     .company .company_profile_contents .company_profile_item .item_license {
-      width: 750px;
       height: 20px;
-      left: 470px;
       top: 1357px; }
     .company .company_profile_contents .company_profile_item .item_kind {
-      width: 750px;
       height: 20px;
-      left: 470px;
       top: 1417px; }
     .company .company_profile_contents .company_profile_item .item_list_companies {
-      width: 750px;
       height: 219px;
-      left: 470px;
       top: 1476px; }
   .company .company_profile_contents .contents_gray {
     display: flex;
