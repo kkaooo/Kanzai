@@ -68,6 +68,8 @@ body{
             width: 1000px;
             height: 1002px;
             
+            border-bottom: solid 3px #F1F1F1;
+            
             .company_profile_title{
                 width: 100px;
                 height: 20px;
@@ -84,11 +86,6 @@ body{
             }
             
             .company_profile_item{
-                width: 750px;
-                height: 20px;
-                left: 470px;
-                top: 739px;
-
                 font-family: Noto Sans JP;
                 font-style: normal;
                 font-weight: normal;
@@ -96,6 +93,78 @@ body{
                 line-height: 20px;
 
                 color: #000000;
+                
+                padding-left: 110px;
+                
+                .item_name{
+                    width: 750px;
+                    height: 20px;
+                    left: 470px;
+                    top: 739px;
+                }
+                
+                .item_address{
+                    width: 750px;
+                    height: 40px;
+                    left: 470px;
+                    top: 798px;
+                }
+                
+                .item_leader{
+                    width: 750px;
+                    height: 20px;
+                    left: 470px;
+                    top: 878px;
+                }
+                
+                .item_list_work{
+                    width: 750px;
+                    height: 119px;
+                    left: 470px;
+                    top: 938px;
+                }
+                
+                .item_money{
+                    width: 750px;
+                    height: 20px;
+                    left: 470px;
+                    top: 1097px;
+                }
+                
+                .item_tel{
+                    width: 750px;
+                    height: 58px;
+                    left: 470px;
+                    top: 1155px;
+                }
+                
+                .item_fax{
+                    width: 750px;
+                    height: 62px;
+                    left: 470px;
+                    top: 1253px;
+                }
+                
+                .item_license{
+                    width: 750px;
+                    height: 20px;
+                    left: 470px;
+                    top: 1357px;
+                }
+                
+                .item_kind{
+                    width: 750px;
+                    height: 20px;
+                    left: 470px;
+                    top: 1417px;
+                }
+                
+                .item_list_companies{
+                    width: 750px;
+                    height: 219px;
+                    left: 470px;
+                    top: 1476px;
+                }
             }
             
             .contents_gray{
@@ -110,9 +179,6 @@ body{
                 background: #FFFFFF;
             }
             
-            .item_list{
-                display:block;
-            }
         }
     }
     
