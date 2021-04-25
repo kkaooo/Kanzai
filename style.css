@@ -614,6 +614,9 @@ body {
     line-height: 20px;
     color: #000000;
     padding-left: 110px; }
+    .company .company_profile_contents .company_profile_item span {
+      font-weight: bold;
+      font-size: 18px; }
     .company .company_profile_contents .company_profile_item .item_name {
       width: 750px;
       height: 20px;
