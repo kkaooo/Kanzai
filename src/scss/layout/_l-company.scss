@@ -61,7 +61,29 @@ body{
     }
     
     .company_profile{
-        &_contents{
+//        position: absolute;
+        left: 220px;
+        top: 671px;
+        width: 1000px;
+        height: 1153px;
+        
+        .profile_title{
+            position: absolute;
+            width: 1000px;
+            height: 28px;
+            left: 220px;
+            top: 671px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #000000;
+        }
+        
+        .company_profile_contents{
             position: absolute;
             left: 220px;
             top: 719px;
@@ -173,7 +195,6 @@ body{
             
         }
     }
-    
     &_access{
         img{
         position: absolute;
@@ -191,6 +212,22 @@ body{
             top: 2261px;
 
             background: #F1F1F1;
+            
+            li.info{
+                font-family: Noto Sans JP;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+        
+        .company_map{
+            position: absolute;
+            width: 1316.74px;
+            height: 746.63px;
+            left: 512px;
+            top: 1833px;
         }
         
     }
