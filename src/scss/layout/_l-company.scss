@@ -1,6 +1,7 @@
 @charset 'utf-8';
 body{
-    height: 2580px;
+//    height: 2580px;
+    height: 2430px;
 }
 
 .company{
@@ -196,6 +197,21 @@ body{
         }
     }
     &_access{
+        .access_title{
+            position: absolute;
+            width: 1000px;
+            height: 28px;
+            left: 225px;
+            top: 1813px;
+
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #000000;
+        }
         img{
         position: absolute;
         width: 350px;
@@ -213,7 +229,7 @@ body{
 
             background: #F1F1F1;
             
-            li.info{
+            .info{
                 font-family: Noto Sans JP;
                 font-style: normal;
                 font-weight: normal;
@@ -224,10 +240,10 @@ body{
         
         .company_map{
             position: absolute;
-            width: 1316.74px;
-            height: 746.63px;
-            left: 512px;
-            top: 1833px;
+            width: 620px;
+            height: 500px;
+            left: 600px;
+            top: 1861px;
         }
         
     }
