@@ -110,6 +110,10 @@ body{
                 display: flex;
                 margin: auto;
                 
+                span{
+                    display: block; //正常に動いていない
+                }
+                
             }
             
             .company_profile_item{
@@ -226,15 +230,21 @@ body{
             height: 100px;
             left: 220px;
             top: 2261px;
-
+            
             background: #F1F1F1;
             
-            .info{
+            ul{
                 font-family: Noto Sans JP;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 14px;
                 line-height: 20px;
+                
+                padding-left: 52px;
+                
+                .info_time{
+                    padding-top: 20px;
+                }
             }
         }
         
