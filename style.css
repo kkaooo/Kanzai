@@ -790,12 +790,12 @@ body {
     top: 535px;
     background: #FCFCFC; }
 
-.kaitai_header {
+.FAQ_header {
   width: 1440px;
   height: 200px;
   left: 0px;
   top: 150px; }
-  .kaitai_header h1 {
+  .FAQ_header h1 {
     position: absolute;
     width: 288px;
     height: 56px;
@@ -807,41 +807,53 @@ body {
     font-size: 48px;
     line-height: 56px;
     color: #333333; }
+  .FAQ_header .Q_list {
+    position: absolute;
+    display: flex;
+    left: 220px;
+    top: 450px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #3F628A; }
+    .FAQ_header .Q_list li {
+      width: 198px;
+      height: 21px;
+      text-align: center; }
+      .FAQ_header .Q_list li span {
+        width: 15px;
+        height: 31px;
+        left: 335px;
+        top: 492px;
+        transform: rotate(90deg); }
+    .FAQ_header .Q_list li + li {
+      margin-left: 203px; }
 
-.kaitai .buy_description {
+.FAQ .QA_item .question {
   position: absolute;
   width: 1000px;
-  height: 16px;
-  left: 221px;
-  top: 450px;
+  height: 60px;
+  left: 220px;
+  top: 665px;
+  background: #618BBB;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF; }
+
+.FAQ .QA_item .answer {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
-  color: #212121; }
-
-.kaitai_banner {
-  text-align: center; }
-  .kaitai_banner img + img {
-    margin-left: 37px;
-    width: 300px;
-    height: 100px; }
-  .kaitai_banner .yahoo {
-    position: absolute;
-    left: 224px;
-    top: 535px;
-    background: #FCFCFC; }
-  .kaitai_banner .kenbiya {
-    position: absolute;
-    left: 561px;
-    top: 535px;
-    background: #FCFCFC; }
-  .kaitai_banner .rakumachi {
-    position: absolute;
-    left: 901px;
-    top: 535px;
-    background: #FCFCFC; }
+  line-height: 24px;
+  /* or 171% */
+  color: #000000; }
 
 .kaitai_header {
   width: 1440px;
