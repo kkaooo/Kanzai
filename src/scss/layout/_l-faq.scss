@@ -1,4 +1,7 @@
 @charset 'utf-8';
+body{
+    
+}
 
 .FAQ{
     &_header{
@@ -60,43 +63,80 @@
 }
     
     .QA_item{
-        .before,.selling,.after{
-        .question{
-//            position: absolute;
-            width: 1000px;
-            height: 60px;
-            left: 220px;
-            top: 665px;
-            display: flex;
-            
-            background: #618BBB;
-            
-            font-family: Noto Sans JP;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 20px;
-
-            color: #FFFFFF;
-        }
+        left: 220px;
+        top: 665px;
         
-        .answer{
-//            position: absolute;
-            width: 1000px;
-            height: 100px;
-            left: 220px;
-            top: 725px;
-            display: flex;
-            
+        .before,.selling,.after{
             font-family: Roboto;
             font-style: normal;
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 24px;
-            /* or 171% */
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
             
             color: #000000;
+            
+            .before_title{
+                position: absolute;
+                width: 265px;
+                height: 28px;
+                left: 220px;
+                top: 607px;
+            }
+            
+            .selling_title{
+                position: absolute;
+                width: 264px;
+                height: 28px;
+                left: 220px;
+                top: 2085px;
+             }
+            
+            .after_title{
+                position: absolute;
+                width: 264px;
+                height: 28px;
+                left: 220px;
+                top: 2885px;
+            }
+                
+            .question{
+//              position: absolute;
+                left: 220px;
+                top: 665px;
+                width: 1000px;
+                height: 60px;
+                display: flex;
+
+                background: #618BBB;
+
+                font-family: Noto Sans JP;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+
+                color: #FFFFFF;
+            }
+        
+            .answer{
+//              position: absolute;
+                width: 1000px;
+                height: 100px;
+                left: 220px;
+                top: 725px;
+                display: flex;
+
+                padding-bottom: 30px;
+
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 24px;
+                /* or 171% */
+
+                color: #000000;
+            }
         }
-    }
     }
 }

@@ -832,33 +832,61 @@ body {
     .FAQ_header .Q_list li + li {
       margin-left: 203px; }
 
-.FAQ .QA_item .before .question, .FAQ .QA_item .selling .question, .FAQ .QA_item .after .question {
-  width: 1000px;
-  height: 60px;
+.FAQ .QA_item {
   left: 220px;
-  top: 665px;
-  display: flex;
-  background: #618BBB;
-  font-family: Noto Sans JP;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 20px;
-  color: #FFFFFF; }
-
-.FAQ .QA_item .before .answer, .FAQ .QA_item .selling .answer, .FAQ .QA_item .after .answer {
-  width: 1000px;
-  height: 100px;
-  left: 220px;
-  top: 725px;
-  display: flex;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-  color: #000000; }
+  top: 665px; }
+  .FAQ .QA_item .before, .FAQ .QA_item .selling, .FAQ .QA_item .after {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000; }
+    .FAQ .QA_item .before .before_title, .FAQ .QA_item .selling .before_title, .FAQ .QA_item .after .before_title {
+      position: absolute;
+      width: 265px;
+      height: 28px;
+      left: 220px;
+      top: 607px; }
+    .FAQ .QA_item .before .selling_title, .FAQ .QA_item .selling .selling_title, .FAQ .QA_item .after .selling_title {
+      position: absolute;
+      width: 264px;
+      height: 28px;
+      left: 220px;
+      top: 2085px; }
+    .FAQ .QA_item .before .after_title, .FAQ .QA_item .selling .after_title, .FAQ .QA_item .after .after_title {
+      position: absolute;
+      width: 264px;
+      height: 28px;
+      left: 220px;
+      top: 2885px; }
+    .FAQ .QA_item .before .question, .FAQ .QA_item .selling .question, .FAQ .QA_item .after .question {
+      left: 220px;
+      top: 665px;
+      width: 1000px;
+      height: 60px;
+      display: flex;
+      background: #618BBB;
+      font-family: Noto Sans JP;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 20px;
+      color: #FFFFFF; }
+    .FAQ .QA_item .before .answer, .FAQ .QA_item .selling .answer, .FAQ .QA_item .after .answer {
+      width: 1000px;
+      height: 100px;
+      left: 220px;
+      top: 725px;
+      display: flex;
+      padding-bottom: 30px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      /* or 171% */
+      color: #000000; }
 
 .kaitai_header {
   width: 1440px;
