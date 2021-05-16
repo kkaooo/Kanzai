@@ -790,6 +790,11 @@ body {
     top: 535px;
     background: #FCFCFC; }
 
+html body {
+  height: 3490px; }
+  html body .footer {
+    top: 3393px; }
+
 .FAQ_header {
   width: 1440px;
   height: 200px;
