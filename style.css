@@ -863,6 +863,24 @@ html body {
       height: 28px;
       left: 220px;
       top: 2885px; }
+    .FAQ .QA_item .before .Q, .FAQ .QA_item .before .A, .FAQ .QA_item .selling .Q, .FAQ .QA_item .selling .A, .FAQ .QA_item .after .Q, .FAQ .QA_item .after .A {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 42px; }
+    .FAQ .QA_item .before .Q, .FAQ .QA_item .selling .Q, .FAQ .QA_item .after .Q {
+      width: 25px;
+      height: 42px;
+      left: 234px;
+      top: 674px;
+      color: #FFFFFF; }
+    .FAQ .QA_item .before .A, .FAQ .QA_item .selling .A, .FAQ .QA_item .after .A {
+      width: 24px;
+      height: 42px;
+      left: 235px;
+      top: 754px;
+      color: #000000; }
     .FAQ .QA_item .before .question, .FAQ .QA_item .selling .question, .FAQ .QA_item .after .question {
       left: 220px;
       top: 665px;

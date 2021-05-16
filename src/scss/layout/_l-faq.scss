@@ -106,7 +106,35 @@ html{
                 left: 220px;
                 top: 2885px;
             }
+            
+            .Q,.A{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 36px;
+                line-height: 42px;
+            }
+            
+            .Q{
+//                position: absolute;
+                width: 25px;
+                height: 42px;
+                left: 234px;
+                top: 674px;
                 
+                color: #FFFFFF;
+            }
+            
+            .A{
+//                position: absolute;
+                width: 24px;
+                height: 42px;
+                left: 235px;
+                top: 754px;
+                
+                color: #000000;
+            }
+            
             .question{
 //              position: absolute;
                 left: 220px;
