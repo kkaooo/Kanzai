@@ -60,12 +60,14 @@
 }
     
     .QA_item{
+        .before,.selling,.after{
         .question{
-            position: absolute;
+//            position: absolute;
             width: 1000px;
             height: 60px;
             left: 220px;
             top: 665px;
+            display: flex;
             
             background: #618BBB;
             
@@ -79,6 +81,13 @@
         }
         
         .answer{
+//            position: absolute;
+            width: 1000px;
+            height: 100px;
+            left: 220px;
+            top: 725px;
+            display: flex;
+            
             font-family: Roboto;
             font-style: normal;
             font-weight: normal;
@@ -88,5 +97,6 @@
             
             color: #000000;
         }
+    }
     }
 }

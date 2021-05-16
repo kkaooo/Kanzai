@@ -832,12 +832,12 @@ body {
     .FAQ_header .Q_list li + li {
       margin-left: 203px; }
 
-.FAQ .QA_item .question {
-  position: absolute;
+.FAQ .QA_item .before .question, .FAQ .QA_item .selling .question, .FAQ .QA_item .after .question {
   width: 1000px;
   height: 60px;
   left: 220px;
   top: 665px;
+  display: flex;
   background: #618BBB;
   font-family: Noto Sans JP;
   font-style: normal;
@@ -846,7 +846,12 @@ body {
   line-height: 20px;
   color: #FFFFFF; }
 
-.FAQ .QA_item .answer {
+.FAQ .QA_item .before .answer, .FAQ .QA_item .selling .answer, .FAQ .QA_item .after .answer {
+  width: 1000px;
+  height: 100px;
+  left: 220px;
+  top: 725px;
+  display: flex;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
