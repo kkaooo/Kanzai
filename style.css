@@ -838,6 +838,7 @@ html body {
       margin-left: 203px; }
 
 .FAQ .QA_item {
+  position: absolute;
   left: 220px;
   top: 665px; }
   .FAQ .QA_item .before, .FAQ .QA_item .selling, .FAQ .QA_item .after {
@@ -848,19 +849,16 @@ html body {
     line-height: 28px;
     color: #000000; }
     .FAQ .QA_item .before .before_title, .FAQ .QA_item .selling .before_title, .FAQ .QA_item .after .before_title {
-      position: absolute;
       width: 265px;
       height: 28px;
       left: 220px;
       top: 607px; }
     .FAQ .QA_item .before .selling_title, .FAQ .QA_item .selling .selling_title, .FAQ .QA_item .after .selling_title {
-      position: absolute;
       width: 264px;
       height: 28px;
       left: 220px;
       top: 2085px; }
     .FAQ .QA_item .before .after_title, .FAQ .QA_item .selling .after_title, .FAQ .QA_item .after .after_title {
-      position: absolute;
       width: 264px;
       height: 28px;
       left: 220px;

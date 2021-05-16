@@ -70,6 +70,7 @@ html{
 }
     
     .QA_item{
+        position: absolute;
         left: 220px;
         top: 665px;
         
@@ -83,7 +84,7 @@ html{
             color: #000000;
             
             .before_title{
-                position: absolute;
+//                position: absolute;
                 width: 265px;
                 height: 28px;
                 left: 220px;
@@ -91,7 +92,7 @@ html{
             }
             
             .selling_title{
-                position: absolute;
+//                position: absolute;
                 width: 264px;
                 height: 28px;
                 left: 220px;
@@ -99,7 +100,7 @@ html{
              }
             
             .after_title{
-                position: absolute;
+//                position: absolute;
                 width: 264px;
                 height: 28px;
                 left: 220px;
