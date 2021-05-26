@@ -59,7 +59,8 @@ html{
                 left: 335px;
                 top: 492px;
                 
-                transform: rotate(90deg); //きいてないな
+                display:inline-block; //spanはインライン要素なので、インラインブロックにしないと回転できない
+                transform: rotate(90deg);
             }
         }
         

@@ -833,6 +833,7 @@ html body {
         height: 31px;
         left: 335px;
         top: 492px;
+        display: inline-block;
         transform: rotate(90deg); }
     .FAQ_header .Q_list li + li {
       margin-left: 203px; }
