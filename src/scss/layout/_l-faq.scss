@@ -39,18 +39,19 @@ html{
         left: 220px;
         top: 450px;
         
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 21px;
-        /* identical to box height */
-        color: #3F628A;
         
-        li{
+        li a{
             width: 198px;
             height: 21px;
             text-align: center;
+            
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+            color: #3F628A;
             
             span{
                 width: 15px;
@@ -85,7 +86,7 @@ html{
             
             color: #000000;
             
-            .before_title{
+            #before_title{
 //                position: absolute;
                 width: 265px;
                 height: 28px;
@@ -95,7 +96,7 @@ html{
                 padding-bottom: 30px;
             }
             
-            .selling_title{
+            #selling_title{
 //                position: absolute;
                 width: 264px;
                 height: 28px;
@@ -105,7 +106,7 @@ html{
                 padding-bottom: 30px;
              }
             
-            .after_title{
+            #after_title{
 //                position: absolute;
                 width: 264px;
                 height: 28px;
@@ -189,7 +190,6 @@ html{
                 /* or 171% */
 
                 color: #000000;
-                
             }
             
             .text{
