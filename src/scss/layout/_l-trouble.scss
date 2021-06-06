@@ -1,97 +1,119 @@
 @charset 'utf-8';
 
-.kaitai{
-    &_header{
-        width: 1440px;
-        height: 200px;
-        left: 0px;
-        top: 150px;
-            
-        h1{
-            position: absolute;
-            width: 192px;
-            height: 56px;
-            left: 220px;
-            top: 200px;
-            margin: 0;
+body{
+    position: relative;
+    width: 1440px;
+    height: 2550px;
 
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 48px;
-            line-height: 56px;
+    background: #FFFFFF;
+}
 
-            color: #333333;
+
+h1{
+    position: absolute;
+    width: 480px;
+    height: 56px;
+    left: 220px;
+    top: 222px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #333333;
+}
+
+.trouble_overview{
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    left: 220px;
+    top: 730px;
+
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+
+
+    color: #000000;
+}
+
+.example{
+    position: absolute;
+    left: 220px;
+    top: 909px;
+}
+
+.example_contents{
+    
+    .case{
+//        position: absolute;
+        width: 1000px;
+        height: 60px;
+        left: 220px;
+        top: 909px;
+        
+        background: #618BBB;
+        
+        font-family: Noto Sans JP;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #FFFFFF;
     }
     
-        h2{
-            position: absolute;
-            width: 144px;
-            height: 28px;
-            left: 220px;
-            top: 273px;
-            margin: 0;
+    .text{
+//        position: absolute;
+        width: 1000px;
+        height: 120px;
+        left: 220px;
+        top: 988px;
 
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 24px;
-            line-height: 28px;
+        font-family: Noto Sans JP;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 30px;
+        /* or 214% */
 
-            color: #333333;
+        text-decoration-line: underline;
+
+        color: #000000;
     }
 }
+
+.contact{
     
-    .buy_description{
+    h2{
         position: absolute;
-        width: 1000px;
-        height: 16px;
-        left: 221px;
-        top: 450px;
+        width: 300px;
+        height: 28px;
+        left: 265px;
+        top: 2074px;
 
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
 
-        color: #212121;
+        color: #3F628A;
     }
-    &_banner{
-//        position: absolute;
-        text-align: center;
-        img + img{
-            margin-left: 37px;
-            width: 300px;
-            height: 100px;
-//            position: absolute;
-        }
-        .yahoo{
-            position: absolute;
-            left: 224px;
-            top: 535px;
+    
+    img{
+        position: absolute;
+        width: 1000px;
+        height: 300px;
+        left: 220px;
+        top: 2044px;
 
-            background: #FCFCFC;
-//            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-        
-        .kenbiya{
-            position: absolute;
-
-            left: 561px;
-            top: 535px;
-
-            background: #FCFCFC;
-//            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-        
-        .rakumachi{
-            position: absolute;
-            left: 901px;
-            top: 535px;
-
-            background: #FCFCFC;
-//            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
+        background: rgba(255, 255, 255, 0.5);
     }
 }

@@ -1200,72 +1200,91 @@ body {
 .footer {
   top: 1526px; }
 
-.kaitai_header {
+body {
+  position: relative;
   width: 1440px;
-  height: 200px;
-  left: 0px;
-  top: 150px; }
-  .kaitai_header h1 {
-    position: absolute;
-    width: 192px;
-    height: 56px;
-    left: 220px;
-    top: 200px;
-    margin: 0;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
-    color: #333333; }
-  .kaitai_header h2 {
-    position: absolute;
-    width: 144px;
-    height: 28px;
-    left: 220px;
-    top: 273px;
-    margin: 0;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #333333; }
+  height: 2550px;
+  background: #FFFFFF; }
 
-.kaitai .buy_description {
+h1 {
+  position: absolute;
+  width: 480px;
+  height: 56px;
+  left: 220px;
+  top: 222px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #333333; }
+
+.trouble_overview {
   position: absolute;
   width: 1000px;
-  height: 16px;
-  left: 221px;
-  top: 450px;
-  font-family: Roboto;
+  height: 60px;
+  left: 220px;
+  top: 730px;
+  font-family: Noto Sans JP;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
-  color: #212121; }
+  line-height: 30px;
+  /* or 214% */
+  color: #000000; }
 
-.kaitai_banner {
-  text-align: center; }
-  .kaitai_banner img + img {
-    margin-left: 37px;
-    width: 300px;
-    height: 100px; }
-  .kaitai_banner .yahoo {
-    position: absolute;
-    left: 224px;
-    top: 535px;
-    background: #FCFCFC; }
-  .kaitai_banner .kenbiya {
-    position: absolute;
-    left: 561px;
-    top: 535px;
-    background: #FCFCFC; }
-  .kaitai_banner .rakumachi {
-    position: absolute;
-    left: 901px;
-    top: 535px;
-    background: #FCFCFC; }
+.example {
+  position: absolute;
+  left: 220px;
+  top: 909px; }
+
+.example_contents .case {
+  width: 1000px;
+  height: 60px;
+  left: 220px;
+  top: 909px;
+  background: #618BBB;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF; }
+
+.example_contents .text {
+  width: 1000px;
+  height: 120px;
+  left: 220px;
+  top: 988px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 30px;
+  /* or 214% */
+  text-decoration-line: underline;
+  color: #000000; }
+
+.contact h2 {
+  position: absolute;
+  width: 300px;
+  height: 28px;
+  left: 265px;
+  top: 2074px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #3F628A; }
+
+.contact img {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  left: 220px;
+  top: 2044px;
+  background: rgba(255, 255, 255, 0.5); }
 
 body {
   height: 2890px; }
