@@ -448,8 +448,6 @@ body {
   display: flex;
   width: 1440px;
   height: 150px;
-  left: 0px;
-  top: 0px;
   background: #FFFFFF; }
   .header img {
     position: absolute;
@@ -460,8 +458,6 @@ body {
   .header_menu {
     width: 661px;
     height: 26px;
-    left: 560px;
-    top: 62px;
     display: flex;
     font-size: 14px;
     line-height: 16px; }
@@ -521,7 +517,6 @@ body {
       margin-bottom: 0; }
 
 .footer {
-  position: absolute;
   text-align: center;
   font-size: 14px;
   line-height: 16px; }
@@ -542,9 +537,6 @@ body {
     text-align: center;
     padding-top: 17px;
     padding-bottom: 19px; }
-
-body {
-  height: 2430px; }
 
 .company_header {
   width: 1440px;
@@ -790,39 +782,22 @@ body {
     top: 535px;
     background: #FCFCFC; }
 
-html body {
-  height: 3490px; }
-  html body .footer {
-    top: 3393px; }
-
 .FAQ_header {
   width: 1440px;
-  height: 200px;
-  left: 0px;
-  top: 150px; }
+  height: 200px; }
   .FAQ_header h1 {
-    position: absolute;
     width: 288px;
     height: 56px;
-    left: 220px;
-    top: 222px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 56px;
     color: #333333; }
   .FAQ_header .Q_list {
-    position: absolute;
-    display: flex;
-    left: 220px;
-    top: 450px; }
+    display: flex; }
     .FAQ_header .Q_list li a {
       width: 198px;
       height: 21px;
       text-align: center;
-      font-family: Roboto;
-      font-style: normal;
       font-weight: bold;
       font-size: 18px;
       line-height: 21px;
@@ -831,94 +806,65 @@ html body {
       .FAQ_header .Q_list li a span {
         width: 15px;
         height: 31px;
-        left: 335px;
-        top: 492px;
         display: inline-block;
         transform: rotate(90deg); }
     .FAQ_header .Q_list li + li {
       margin-left: 203px; }
 
-.FAQ .QA_item {
-  position: absolute;
-  left: 220px;
-  top: 665px; }
-  .FAQ .QA_item .before, .FAQ .QA_item .selling, .FAQ .QA_item .after {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 100px;
+.FAQ .QA_item .before, .FAQ .QA_item .selling, .FAQ .QA_item .after {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 100px;
+  color: #000000; }
+  .FAQ .QA_item .before #before_title, .FAQ .QA_item .selling #before_title, .FAQ .QA_item .after #before_title {
+    width: 265px;
+    height: 28px;
+    padding-bottom: 30px; }
+  .FAQ .QA_item .before #selling_title, .FAQ .QA_item .selling #selling_title, .FAQ .QA_item .after #selling_title {
+    width: 264px;
+    height: 28px;
+    padding-bottom: 30px; }
+  .FAQ .QA_item .before #after_title, .FAQ .QA_item .selling #after_title, .FAQ .QA_item .after #after_title {
+    width: 264px;
+    height: 28px;
+    padding-bottom: 30px; }
+  .FAQ .QA_item .before .Q, .FAQ .QA_item .before .A, .FAQ .QA_item .selling .Q, .FAQ .QA_item .selling .A, .FAQ .QA_item .after .Q, .FAQ .QA_item .after .A {
+    font-size: 36px;
+    line-height: 42px; }
+  .FAQ .QA_item .before .Q, .FAQ .QA_item .selling .Q, .FAQ .QA_item .after .Q {
+    width: 25px;
+    height: 42px;
+    margin: 9px 25px 9px 14px;
+    color: #FFFFFF; }
+  .FAQ .QA_item .before .A, .FAQ .QA_item .selling .A, .FAQ .QA_item .after .A {
+    width: 24px;
+    height: 42px;
+    margin: 29px 25px 29px 15px;
     color: #000000; }
-    .FAQ .QA_item .before #before_title, .FAQ .QA_item .selling #before_title, .FAQ .QA_item .after #before_title {
-      width: 265px;
-      height: 28px;
-      left: 220px;
-      top: 607px;
-      padding-bottom: 30px; }
-    .FAQ .QA_item .before #selling_title, .FAQ .QA_item .selling #selling_title, .FAQ .QA_item .after #selling_title {
-      width: 264px;
-      height: 28px;
-      left: 220px;
-      top: 2085px;
-      padding-bottom: 30px; }
-    .FAQ .QA_item .before #after_title, .FAQ .QA_item .selling #after_title, .FAQ .QA_item .after #after_title {
-      width: 264px;
-      height: 28px;
-      left: 220px;
-      top: 2885px;
-      padding-bottom: 30px; }
-    .FAQ .QA_item .before .Q, .FAQ .QA_item .before .A, .FAQ .QA_item .selling .Q, .FAQ .QA_item .selling .A, .FAQ .QA_item .after .Q, .FAQ .QA_item .after .A {
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 36px;
-      line-height: 42px; }
-    .FAQ .QA_item .before .Q, .FAQ .QA_item .selling .Q, .FAQ .QA_item .after .Q {
-      width: 25px;
-      height: 42px;
-      left: 234px;
-      top: 674px;
-      margin: 9px 25px 9px 14px;
-      color: #FFFFFF; }
-    .FAQ .QA_item .before .A, .FAQ .QA_item .selling .A, .FAQ .QA_item .after .A {
-      width: 24px;
-      height: 42px;
-      left: 235px;
-      top: 754px;
-      margin: 29px 25px 29px 15px;
-      color: #000000; }
-    .FAQ .QA_item .before .question, .FAQ .QA_item .selling .question, .FAQ .QA_item .after .question {
-      left: 220px;
-      top: 665px;
-      width: 1000px;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      background: #618BBB;
-      font-family: Noto Sans JP;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 20px;
-      color: #FFFFFF; }
-    .FAQ .QA_item .before .answer, .FAQ .QA_item .selling .answer, .FAQ .QA_item .after .answer {
-      width: 1000px;
-      height: 100px;
-      left: 220px;
-      top: 725px;
-      display: flex;
-      align-items: center;
-      padding-bottom: 30px;
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 24px;
-      /* or 171% */
-      color: #000000; }
-    .FAQ .QA_item .before .text, .FAQ .QA_item .selling .text, .FAQ .QA_item .after .text {
-      margin: 0; }
+  .FAQ .QA_item .before .question, .FAQ .QA_item .selling .question, .FAQ .QA_item .after .question {
+    width: 1000px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: #618BBB;
+    font-family: Noto Sans JP;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF; }
+  .FAQ .QA_item .before .answer, .FAQ .QA_item .selling .answer, .FAQ .QA_item .after .answer {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #000000; }
+  .FAQ .QA_item .before .text, .FAQ .QA_item .selling .text, .FAQ .QA_item .after .text {
+    margin: 0; }
 
 .kaitai_header {
   width: 1440px;
@@ -986,9 +932,6 @@ html body {
     left: 901px;
     top: 535px;
     background: #FCFCFC; }
-
-body {
-  height: 1561px; }
 
 .kaitai_header {
   width: 1440px;
@@ -1127,10 +1070,8 @@ body {
     top: 535px;
     background: #FCFCFC; }
 
-body {
-  height: 1480px; }
-  body a, body a:hover, body a:visited {
-    color: #000000; }
+body a, body a:hover, body a:visited {
+  color: #000000; }
 
 .sitemap_header img {
   position: absolute;
@@ -1266,9 +1207,6 @@ body {
     left: 901px;
     top: 535px;
     background: #FCFCFC; }
-
-body {
-  height: 2890px; }
 
 .uritai_header {
   width: 1440px;

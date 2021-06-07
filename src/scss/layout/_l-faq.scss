@@ -1,31 +1,36 @@
 @charset 'utf-8';
 
-html{
-    body{
-        height: 3490px;
-        
-        .footer{
-            top: 3393px;
-        }
-    }
-}
+
+//基本的に、ページの高さは、固定しないので指定してはいけません
+//例：FAQが一つ増えるたびにレイアウトが崩れてしまい、毎回heightを再計算して修正しないといけなくなるため
+//html{
+//    body{
+//        height: 3490px;
+//
+//        .footer{
+//            top: 3393px;
+//        }
+//    }
+//}
 
 .FAQ{
     &_header{
         width: 1440px;
         height: 200px;
-        left: 0px;
-        top: 150px;
+        //left: 0px;
+        //top: 150px;
             
         h1{
-            position: absolute;
-            width: 288px;
-            height: 56px;
-            left: 220px;
-            top: 222px;
-            
-            font-family: Roboto;
-            font-style: normal;
+            //①この状態だと、ページ全体からの絶対座標で指定してしまうので、backgroud-imageの高さが変わってしまったら、再度指定しなおさないといけなくなる
+            //position: absolute;
+            width: 288px;   //不要な気がする
+            height: 56px;   //不要な気がする
+            //left: 220px;
+            //top: 222px;
+
+            //　_l-common.scss の body{}で同じ値を指定しているので再度指定する必要がない
+            //font-family: Roboto;
+            //font-style: normal;
             font-weight: bold;
             font-size: 48px;
             line-height: 56px;
@@ -34,10 +39,11 @@ html{
     }
     
     .Q_list{
-        position: absolute;
+        //①
+        //position: absolute;
         display: flex;
-        left: 220px;
-        top: 450px;
+        //left: 220px;
+        //top: 450px;
         
         
         li a{
@@ -45,8 +51,8 @@ html{
             height: 21px;
             text-align: center;
             
-            font-family: Roboto;
-            font-style: normal;
+            //font-family: Roboto;
+            //font-style: normal;
             font-weight: bold;
             font-size: 18px;
             line-height: 21px;
@@ -56,8 +62,9 @@ html{
             span{
                 width: 15px;
                 height: 31px;
-                left: 335px;
-                top: 492px;
+                // top,bottom,left,right は position: xxxx; がないと無意味 → ここでは不要
+                //left: 335px;
+                //top: 492px;
                 
                 display:inline-block; //spanはインライン要素なので、インラインブロックにしないと回転できない
                 transform: rotate(90deg);
@@ -72,13 +79,14 @@ html{
 }
     
     .QA_item{
-        position: absolute;
-        left: 220px;
-        top: 665px;
+        //①
+        //position: absolute;
+        //left: 220px;
+        //top: 665px;
         
         .before,.selling,.after{
-            font-family: Roboto;
-            font-style: normal;
+            //font-family: Roboto;
+            //font-style: normal;
             font-weight: bold;
             font-size: 24px;
             line-height: 28px;
@@ -91,8 +99,8 @@ html{
 //                position: absolute;
                 width: 265px;
                 height: 28px;
-                left: 220px;
-                top: 607px;
+                //left: 220px;
+                //top: 607px;
                 
                 padding-bottom: 30px;
             }
@@ -101,8 +109,8 @@ html{
 //                position: absolute;
                 width: 264px;
                 height: 28px;
-                left: 220px;
-                top: 2085px;
+                //left: 220px;
+                //top: 2085px;
                 
                 padding-bottom: 30px;
              }
@@ -111,16 +119,16 @@ html{
 //                position: absolute;
                 width: 264px;
                 height: 28px;
-                left: 220px;
-                top: 2885px;
+                //left: 220px;
+                //top: 2885px;
                 
                 padding-bottom: 30px;
             }
             
             .Q,.A{
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: normal;
+                //font-family: Roboto;
+                //font-style: normal;
+                //font-weight: normal;
                 font-size: 36px;
                 line-height: 42px;
             }
@@ -129,8 +137,8 @@ html{
 //                position: absolute;
                 width: 25px;
                 height: 42px;
-                left: 234px;
-                top: 674px;
+                //left: 234px;
+                //top: 674px;
                 
                 margin: 9px 25px 9px 14px;
                 
@@ -141,8 +149,8 @@ html{
 //                position: absolute;
                 width: 24px;
                 height: 42px;
-                left: 235px;
-                top: 754px;
+                //left: 235px;
+                //top: 754px;
                 
                 margin: 29px 25px 29px 15px;
                 
@@ -151,8 +159,8 @@ html{
             
             .question{
 //              position: absolute;
-                left: 220px;
-                top: 665px;
+//                left: 220px;
+//                top: 665px;
                 width: 1000px;
                 height: 60px;
                 display: flex;
@@ -161,8 +169,8 @@ html{
 
                 background: #618BBB;
 
-                font-family: Noto Sans JP;
-                font-style: normal;
+                font-family: Noto Sans JP; // body{ font-family: Roboto; } から上書きするのでこの記述は◎
+                //font-style: normal;
                 font-weight: bold;
                 font-size: 14px;
                 line-height: 20px;
@@ -175,17 +183,17 @@ html{
 //              position: absolute;
                 width: 1000px;
                 height: 100px;
-                left: 220px;
-                top: 725px;
+                //left: 220px;
+                //top: 725px;
                 display: flex;
 //                justify-content: center;
                 align-items: center;
 
                 padding-bottom: 30px;
 
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: normal;
+                //font-family: Roboto;
+                //font-style: normal;
+                //font-weight: normal;
                 font-size: 14px;
                 line-height: 24px;
                 /* or 171% */
