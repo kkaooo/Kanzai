@@ -26,6 +26,8 @@
         //top: 150px;
         position: relative;
 
+        margin-bottom: 100px;
+
         h1{
             //①この状態だと、ページ全体からの絶対座標で指定してしまうので、backgroud-imageの高さが変わってしまったら、再度指定しなおさないといけなくなる
             //position: absolute;
@@ -62,6 +64,8 @@
         display: flex;
         //left: 220px;
         //top: 450px;
+
+        margin-bottom: 100px;
 
 
 

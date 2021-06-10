@@ -790,7 +790,8 @@ body {
   width: 100vw;
   height: 200px;
   margin: 0 calc(50% - 50vw);
-  position: relative; }
+  position: relative;
+  margin-bottom: 100px; }
   .FAQ_header h1 {
     font-weight: bold;
     font-size: 48px;
@@ -804,7 +805,8 @@ body {
     margin: 0; }
 
 .FAQ .Q_list {
-  display: flex; }
+  display: flex;
+  margin-bottom: 100px; }
   .FAQ .Q_list li a {
     width: 198px;
     height: 21px;
