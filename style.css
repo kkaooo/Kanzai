@@ -444,6 +444,10 @@ body {
   font-weight: normal;
   background: #FFFFFF; }
 
+.container {
+  width: 1000px;
+  margin: 0 auto; }
+
 .header {
   display: flex;
   width: 1440px;
