@@ -184,7 +184,7 @@
 //                left: 220px;
 //                top: 665px;
                 width: 1000px;
-                height: 60px;
+                //height: 60px; //文字が2行以上になったらくずれるので指定した前提でのCSSはよろしくない
                 display: flex;
 //                justify-content: center;
                 align-items: center;
@@ -204,7 +204,7 @@
             .answer{
 //              position: absolute;
                 width: 1000px;
-                height: 100px;
+                //height: 100px; //文字が2行以上になったらくずれるので指定した前提でのCSSはよろしくない
                 //left: 220px;
                 //top: 725px;
                 display: flex;
@@ -224,7 +224,7 @@
             }
             
             .text{
-                margin: 0;
+                //margin: 0;
             }
             
         }

@@ -857,7 +857,6 @@ body {
     color: #000000; }
   .FAQ .QA_item .before .question, .FAQ .QA_item .selling .question, .FAQ .QA_item .after .question {
     width: 1000px;
-    height: 60px;
     display: flex;
     align-items: center;
     background: #618BBB;
@@ -868,7 +867,6 @@ body {
     color: #FFFFFF; }
   .FAQ .QA_item .before .answer, .FAQ .QA_item .selling .answer, .FAQ .QA_item .after .answer {
     width: 1000px;
-    height: 100px;
     display: flex;
     align-items: center;
     padding-bottom: 30px;
@@ -876,8 +874,6 @@ body {
     line-height: 24px;
     /* or 171% */
     color: #000000; }
-  .FAQ .QA_item .before .text, .FAQ .QA_item .selling .text, .FAQ .QA_item .after .text {
-    margin: 0; }
 
 .kaitai_header {
   width: 1440px;
