@@ -787,7 +787,8 @@ body {
     background: #FCFCFC; }
 
 .FAQ_header {
-  width: 1440px; }
+  width: 100vw;
+  margin: 0 calc(50% - 50vw); }
   .FAQ_header h1 {
     width: 288px;
     height: 56px;

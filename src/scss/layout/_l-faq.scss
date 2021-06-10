@@ -15,11 +15,16 @@
 
 .FAQ{
     &_header{
-        width: 1440px;
+        // 画面幅いっぱいにはみ出して配置する
+        // https://ponsyon.com/archives/4660
+        width: 100vw;
+        margin: 0 calc(50% - 50vw);
+        //width: 1440px;
         //height: 200px;
         //left: 0px;
         //top: 150px;
-            
+
+
         h1{
             //①この状態だと、ページ全体からの絶対座標で指定してしまうので、backgroud-imageの高さが変わってしまったら、再度指定しなおさないといけなくなる
             //position: absolute;
