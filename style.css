@@ -795,24 +795,25 @@ body {
     font-size: 48px;
     line-height: 56px;
     color: #333333; }
-  .FAQ_header .Q_list {
-    display: flex; }
-    .FAQ_header .Q_list li a {
-      width: 198px;
-      height: 21px;
-      text-align: center;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 21px;
-      /* identical to box height */
-      color: #3F628A; }
-      .FAQ_header .Q_list li a span {
-        width: 15px;
-        height: 31px;
-        display: inline-block;
-        transform: rotate(90deg); }
-    .FAQ_header .Q_list li + li {
-      margin-left: 203px; }
+
+.FAQ .Q_list {
+  display: flex; }
+  .FAQ .Q_list li a {
+    width: 198px;
+    height: 21px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #3F628A; }
+    .FAQ .Q_list li a span {
+      width: 15px;
+      height: 31px;
+      display: inline-block;
+      transform: rotate(90deg); }
+  .FAQ .Q_list li + li {
+    margin-left: 203px; }
 
 .FAQ .QA_item .before, .FAQ .QA_item .selling, .FAQ .QA_item .after {
   font-weight: bold;

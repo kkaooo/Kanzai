@@ -38,44 +38,45 @@
             color: #333333;
         }
     
-        .Q_list{
-            //①
-            //position: absolute;
-            display: flex;
-            //left: 220px;
-            //top: 450px;
+    }
+    .Q_list{
+        //①
+        //position: absolute;
+        display: flex;
+        //left: 220px;
+        //top: 450px;
 
 
-            li a{
-                width: 198px;
-                height: 21px;
-                text-align: center;
 
-                //font-family: Roboto;
-                //font-style: normal;
-                font-weight: bold;
-                font-size: 18px;
-                line-height: 21px;
-                /* identical to box height */
-                color: #3F628A;
+        li a{
+            width: 198px;
+            height: 21px;
+            text-align: center;
 
-                span{
-                    width: 15px;
-                    height: 31px;
-                    // top,bottom,left,right は position: xxxx; がないと無意味 → ここでは不要
-                    //left: 335px;
-                    //top: 492px;
+            //font-family: Roboto;
+            //font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+            color: #3F628A;
 
-                    display:inline-block; //spanはインライン要素なので、インラインブロックにしないと回転できない
-                    transform: rotate(90deg);
-                }
+            span{
+                width: 15px;
+                height: 31px;
+                // top,bottom,left,right は position: xxxx; がないと無意味 → ここでは不要
+                //left: 335px;
+                //top: 492px;
+
+                display:inline-block; //spanはインライン要素なので、インラインブロックにしないと回転できない
+                transform: rotate(90deg);
             }
-
-            li + li{
-                margin-left: 203px;
-            }
-
         }
+
+        li + li{
+            margin-left: 203px;
+        }
+
     }
 
     .QA_item{
