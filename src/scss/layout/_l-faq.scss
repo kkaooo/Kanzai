@@ -1,162 +1,165 @@
 @charset 'utf-8';
 
-html{
-    body{
+html {
+    body {
         height: 3490px;
-        
-        .footer{
+
+        .footer {
             top: 3393px;
         }
     }
 }
 
-.FAQ{
-    &_header{
+.FAQ {
+    &_header {
         width: 1440px;
         height: 200px;
         left: 0px;
         top: 150px;
-            
-        h1{
+
+        h1 {
             position: absolute;
             width: 288px;
             height: 56px;
             left: 220px;
             top: 222px;
-            
+
             font-family: Roboto;
             font-style: normal;
             font-weight: bold;
             font-size: 48px;
             line-height: 56px;
-            
+
             color: #333333;
-    }
-    
-    .Q_list{
-        position: absolute;
-        display: flex;
-        left: 220px;
-        top: 450px;
-        
-        
-        li a{
-            width: 198px;
-            height: 21px;
-            text-align: center;
-            
-            font-family: Roboto;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 18px;
-            line-height: 21px;
-            /* identical to box height */
-            color: #3F628A;
-            
-            span{
-                width: 15px;
-                height: 31px;
-                left: 335px;
-                top: 492px;
-                
-                display:inline-block; //spanはインライン要素なので、インラインブロックにしないと回転できない
-                transform: rotate(90deg);
+        }
+
+        .Q_list {
+            position: absolute;
+            display: flex;
+            left: 220px;
+            top: 450px;
+
+
+            li a {
+                width: 198px;
+                height: 21px;
+                text-align: center;
+
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                /* identical to box height */
+                color: #3F628A;
+
+                span {
+                    width: 15px;
+                    height: 31px;
+                    left: 335px;
+                    top: 492px;
+
+                    display: inline-block; //spanはインライン要素なので、インラインブロックにしないと回転できない
+                    transform: rotate(90deg);
+                }
             }
+
+            li + li {
+                margin-left: 203px;
+            }
+
         }
-        
-        li + li{
-            margin-left: 203px;
-        }
-        
     }
-}
-    
-    .QA_item{
+
+    .QA_item {
         position: absolute;
         left: 220px;
         top: 665px;
-        
-        .before,.selling,.after{
+
+        .before,
+        .selling,
+        .after {
             font-family: Roboto;
             font-style: normal;
             font-weight: bold;
             font-size: 24px;
             line-height: 28px;
-            
+
             margin-bottom: 100px;
-            
+
             color: #000000;
-            
-            #before_title{
-//                position: absolute;
+
+            #before_title {
+                //                position: absolute;
                 width: 265px;
                 height: 28px;
                 left: 220px;
                 top: 607px;
-                
+
                 padding-bottom: 30px;
             }
-            
-            #selling_title{
-//                position: absolute;
+
+            #selling_title {
+                //                position: absolute;
                 width: 264px;
                 height: 28px;
                 left: 220px;
                 top: 2085px;
-                
+
                 padding-bottom: 30px;
-             }
-            
-            #after_title{
-//                position: absolute;
+            }
+
+            #after_title {
+                //                position: absolute;
                 width: 264px;
                 height: 28px;
                 left: 220px;
                 top: 2885px;
-                
+
                 padding-bottom: 30px;
             }
-            
-            .Q,.A{
+
+            .Q,
+            .A {
                 font-family: Roboto;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 36px;
                 line-height: 42px;
             }
-            
-            .Q{
-//                position: absolute;
+
+            .Q {
+                //                position: absolute;
                 width: 25px;
                 height: 42px;
                 left: 234px;
                 top: 674px;
-                
+
                 margin: 9px 25px 9px 14px;
-                
+
                 color: #FFFFFF;
             }
-            
-            .A{
-//                position: absolute;
+
+            .A {
+                //                position: absolute;
                 width: 24px;
                 height: 42px;
                 left: 235px;
                 top: 754px;
-                
+
                 margin: 29px 25px 29px 15px;
-                
+
                 color: #000000;
             }
-            
-            .question{
-//              position: absolute;
+
+            .question {
+                //              position: absolute;
                 left: 220px;
                 top: 665px;
                 width: 1000px;
                 height: 60px;
                 display: flex;
-//                justify-content: center;
+                //                justify-content: center;
                 align-items: center;
 
                 background: #618BBB;
@@ -168,17 +171,17 @@ html{
                 line-height: 20px;
 
                 color: #FFFFFF;
-                
+
             }
-        
-            .answer{
-//              position: absolute;
+
+            .answer {
+                //              position: absolute;
                 width: 1000px;
                 height: 100px;
                 left: 220px;
                 top: 725px;
                 display: flex;
-//                justify-content: center;
+                //                justify-content: center;
                 align-items: center;
 
                 padding-bottom: 30px;
@@ -192,12 +195,12 @@ html{
 
                 color: #000000;
             }
-            
-            .text{
+
+            .text {
                 margin: 0;
             }
-            
+
         }
-        
+
     }
 }

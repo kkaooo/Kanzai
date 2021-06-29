@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script type="text/javascript" src="/assets/js/app.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    
+
     <!-- WPでは自動でトップのCSSは読み込まれるっぽい -->
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -17,20 +17,21 @@
 </head>
 
 <body>
-        <% include partials/_header %>
+    <% include partials/_header %>
 
+    <div class="container">
         <div class="uritai">
             <div class="uritai_header">
-                    <img src="./assets/img/uritai_header.jpg" alt="">
-                    
-                    <h1>売りたい</h1>
-                    <h2>オーナー様へ</h2>
+                <img src="./assets/img/uritai_header.jpg" alt="">
+
+                <h1>売りたい</h1>
+                <h2>オーナー様へ</h2>
             </div>
-            
+
             <!-- polyfill for IE11 (because IE11 doesn't have "details" tag)-->
             <script src="//cdn.jsdelivr.net/npm/details-polyfill@1.1.0/index.min.js"></script>
             <!-- /polyfill for IE11 -->
-           
+
             <ul class="sell_procedure">
                 <li class="soudan">
                     <details>
@@ -44,7 +45,7 @@
                             </div>
                         </summary>
 
-    <!--                    以下、figmaでは示されていなかった部分は、現在のホームページより抜粋-->
+                        <!--                    以下、figmaでは示されていなかった部分は、現在のホームページより抜粋-->
                         <div class="procedure_text_hosoku">
                             「今売ったらいくらなのか」「他の不動産業者からの営業に困っている」「将来的な相続への不安」<br>など弊社では日々様々なご相談をいただいております。まずはお電話か当ホームページのお問い合わせ<br>フォームからご連絡ください。<br>売却査定は、無料です。査定結果はお電話やメール、郵送でお伝えさせていただきます。どうぞお気軽<br>にご相談くださいませ。
                         </div>
@@ -52,28 +53,28 @@
                         <a href="https://www.meiwakanzai.com/contact" class="contact_button">お問い合わせはこちら</a>
                     </details>
                 </li>
-                
+
                 <li class="search_satei">
-                   <details>
-                       <summary>
+                    <details>
+                        <summary>
                             <div class="procedure_title">
                                 2. 物件の調査・査定
                             </div>
-                            
+
                             <div class="procedure_text">
                                 実際にどれぐらいの金額で売れるのか、売るにはどのような方法があるのか、などご提案させていただきます。
                             </div>
-                       </summary>
-                       
+                        </summary>
+
                         <div class="procedure_text_hosoku">
                             弊社では、相場に合わせ収益還元法を用いて計算した価格や近隣類似物件の成約事例な どを比較し総合的な金額でご提案させていただきます。
                         </div>
-                   </details>
+                    </details>
                 </li>
-                
+
                 <li class="baikai_contract">
-                   <details>
-                       <summary>
+                    <details>
+                        <summary>
                             <div class="procedure_title">
                                 3. 媒介契約
                             </div>
@@ -81,12 +82,12 @@
                             <div class="procedure_text">
                                 弊社と媒介契約を締結していただきます。媒介契約を締結することによって、ご所有の物件の売却活動をスタートさせることになります。
                             </div>
-                       </summary>
-                       
+                        </summary>
+
                         <div class="procedure_text_hosoku">
-                           <div class="hosoku_1">
-                            媒介契約には種類があり、それぞれ内容が異なります。契約期間はいずれも 3ヶ月以内の契約となり、<br>お客様からの申し出によって更新できます。<br>あくまで売却活動についてご依頼いただくためのものですので、ここまでで費用は発生いたしません。
-                           </div>
+                            <div class="hosoku_1">
+                                媒介契約には種類があり、それぞれ内容が異なります。契約期間はいずれも 3ヶ月以内の契約となり、<br>お客様からの申し出によって更新できます。<br>あくまで売却活動についてご依頼いただくためのものですので、ここまでで費用は発生いたしません。
+                            </div>
 
                             <div class="procedure_text_hosoku_2">
                                 <h1>媒介契約の種類</h1>
@@ -105,12 +106,12 @@
                                 </ul>
                             </div>
                         </div>
-                   </details>
+                    </details>
                 </li>
-                
+
                 <li class="boshu_apply">
-                   <details>
-                       <summary>
+                    <details>
+                        <summary>
                             <div class="procedure_title">
                                 4. 募集開始～購入申し込み
                             </div>
@@ -118,29 +119,29 @@
                             <div class="procedure_text">
                                 様々な売却活動を通して購入希望者を探します。
                             </div>
-                       </summary>
-                        
+                        </summary>
+
                         <div class="procedure_text_hosoku">
                             各媒体(東日本不動産流通機構、Yahoo!不動産、楽待、HOME’S)への掲載、お付き合いのある個人のお客様や業者様へのご紹介など本<br>格的な募集活動を開始いたします。<br>物件に関する質問など、購入希望者の方への対応は弊社で行わせていただきます。購入希望者より買付申込が入ってきましたら、ご<br>相談させていただき条件の調整を行います。条件調整後、ご承諾いただけましたら契約準備へと進ませていただきます。
                         </div>
-                   </details>
+                    </details>
                 </li>
-                
+
                 <li class="contract">
                     <div class="procedure_title">
                         5. 売買契約締結
                     </div>
-                    
+
                     <div class="procedure_text">
                         条件等の調整が全て終わりましたら、正式に売買契約を締結いたします。
                     </div>
                 </li>
-                
+
                 <li class="get_house">
                     <div class="procedure_title">
                         6. 引渡
                     </div>
-                    
+
                     <div class="procedure_text">
                         残代金を受け取り、登記を申請します。
                     </div>
@@ -149,7 +150,9 @@
 
         </div>
 
-        <% include partials/_footer %>
+    </div>
+
+    <% include partials/_footer %>
 </body>
 
 </html>
