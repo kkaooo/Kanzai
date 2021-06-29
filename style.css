@@ -803,8 +803,6 @@ body {
     height: 56px;
     left: 220px;
     top: 222px;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 56px;
@@ -818,8 +816,6 @@ body {
       width: 198px;
       height: 21px;
       text-align: center;
-      font-family: Roboto;
-      font-style: normal;
       font-weight: bold;
       font-size: 18px;
       line-height: 21px;
@@ -842,8 +838,6 @@ body {
   .FAQ .QA_item .before,
   .FAQ .QA_item .selling,
   .FAQ .QA_item .after {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 28px;
@@ -879,9 +873,6 @@ body {
     .FAQ .QA_item .selling .A,
     .FAQ .QA_item .after .Q,
     .FAQ .QA_item .after .A {
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
       font-size: 36px;
       line-height: 42px; }
     .FAQ .QA_item .before .Q,
@@ -913,7 +904,6 @@ body {
       align-items: center;
       background: #618BBB;
       font-family: Noto Sans JP;
-      font-style: normal;
       font-weight: bold;
       font-size: 14px;
       line-height: 20px;
@@ -928,9 +918,6 @@ body {
       display: flex;
       align-items: center;
       padding-bottom: 30px;
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
       font-size: 14px;
       line-height: 24px;
       /* or 171% */
