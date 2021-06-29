@@ -1,17 +1,18 @@
 @charset 'utf-8';
-body{
-//    height: 2580px;
+
+body {
+    //    height: 2580px;
     height: 2430px;
 }
 
-.company{
-    &_header{
+.company {
+    &_header {
         width: 1440px;
         height: 200px;
         left: 0px;
         top: 150px;
-            
-        h1{
+
+        h1 {
             position: absolute;
             width: 192px;
             height: 56px;
@@ -23,9 +24,9 @@ body{
             line-height: 56px;
 
             color: #000000;
-    }
-    
-        h2{
+        }
+
+        h2 {
             position: absolute;
             width: 144px;
             height: 28px;
@@ -40,11 +41,11 @@ body{
             line-height: 28px;
 
             color: #333333;
+        }
     }
-}
-    
-    
-    .about_sales_department{
+
+
+    .about_sales_department {
         position: absolute;
         width: 1000px;
         height: 16px;
@@ -58,17 +59,17 @@ body{
         line-height: 16px;
 
         color: #212121;
-        
+
     }
-    
-    .company_profile{
-//        position: absolute;
+
+    .company_profile {
+        //        position: absolute;
         left: 220px;
         top: 671px;
         width: 1000px;
         height: 1153px;
-        
-        .profile_title{
+
+        .profile_title {
             position: absolute;
             width: 1000px;
             height: 28px;
@@ -83,17 +84,17 @@ body{
 
             color: #000000;
         }
-        
-        .company_profile_contents{
+
+        .company_profile_contents {
             position: absolute;
             left: 220px;
             top: 719px;
             width: 1000px;
             height: 1002px;
-            
+
             border-bottom: solid 3px #F1F1F1;
-            
-            .company_profile_title{
+
+            .company_profile_title {
                 width: 100px;
                 height: 20px;
                 left: 260px;
@@ -106,17 +107,17 @@ body{
                 line-height: 20px;
 
                 color: #000000;
-                
+
                 display: flex;
                 margin: auto;
-                
-                span{
+
+                span {
                     display: block; //正常に動いていない
                 }
-                
+
             }
-            
-            .company_profile_item{
+
+            .company_profile_item {
                 font-family: Noto Sans JP;
                 font-style: normal;
                 font-weight: normal;
@@ -124,84 +125,85 @@ body{
                 line-height: 20px;
 
                 color: #000000;
-                
+
                 padding-left: 110px;
-                
-                span{
+
+                span {
                     font-weight: bold;
                     font-size: 18px;
                 }
-                
+
                 width: 750px;
                 left: 470px;
-                
-                .item_name{
+
+                .item_name {
                     height: 20px;
                     top: 739px;
                 }
-                
-                .item_address{
+
+                .item_address {
                     height: 40px;
                     top: 798px;
                 }
-                
-                .item_leader{
+
+                .item_leader {
                     height: 20px;
                     top: 878px;
                 }
-                
-                .item_list_work{
+
+                .item_list_work {
                     height: 119px;
                     top: 938px;
                 }
-                
-                .item_money{
+
+                .item_money {
                     height: 20px;
                     top: 1097px;
                 }
-                
-                .item_tel{
+
+                .item_tel {
                     height: 58px;
                     top: 1155px;
                 }
-                
-                .item_fax{
+
+                .item_fax {
                     height: 62px;
                     top: 1253px;
                 }
-                
-                .item_license{
+
+                .item_license {
                     height: 20px;
                     top: 1357px;
                 }
-                
-                .item_kind{
+
+                .item_kind {
                     height: 20px;
                     top: 1417px;
                 }
-                
-                .item_list_companies{
+
+                .item_list_companies {
                     height: 219px;
                     top: 1476px;
                 }
             }
-            
-            .contents_gray{
+
+            .contents_gray {
                 display: flex;
                 padding: 20px 0 20px 40px;
                 background: #F1F1F1;
             }
-            
-            .contents_white{
+
+            .contents_white {
                 display: flex;
                 padding: 20px 0 20px 40px;
                 background: #FFFFFF;
             }
-            
+
         }
     }
-    &_access{
-        .access_title{
+
+    &_access {
+        .access_title {
             position: absolute;
             width: 1000px;
             height: 28px;
@@ -216,45 +218,46 @@ body{
 
             color: #000000;
         }
-        img{
-        position: absolute;
-        width: 350px;
-        height: 373px;
-        left: 220px;
-        top: 1861px;
+
+        img {
+            position: absolute;
+            width: 350px;
+            height: 373px;
+            left: 220px;
+            top: 1861px;
         }
-        
-        .company_info{
+
+        .company_info {
             position: absolute;
             width: 350px;
             height: 100px;
             left: 220px;
             top: 2261px;
-            
+
             background: #F1F1F1;
-            
-            ul{
+
+            ul {
                 font-family: Noto Sans JP;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 14px;
                 line-height: 20px;
-                
+
                 padding-left: 52px;
-                
-                .info_time{
+
+                .info_time {
                     padding-top: 20px;
                 }
             }
         }
-        
-        .company_map{
+
+        .company_map {
             position: absolute;
             width: 620px;
             height: 500px;
             left: 600px;
             top: 1861px;
         }
-        
+
     }
 }

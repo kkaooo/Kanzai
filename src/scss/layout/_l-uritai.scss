@@ -1,18 +1,18 @@
 @charset 'utf-8';
 
-body{
+body {
     height: 2890px;
 }
 
-.uritai{
-    &_header{
-//        position: absolute;
+.uritai {
+    &_header {
+        //        position: absolute;
         width: 1440px;
         height: 200px;
         left: 0px;
         top: 150px;
-            
-        h1{
+
+        h1 {
             position: absolute;
             width: 192px;
             height: 56px;
@@ -27,9 +27,9 @@ body{
             line-height: 56px;
 
             color: #333333;
-    }
-    
-        h2{
+        }
+
+        h2 {
             position: absolute;
             width: 144px;
             height: 28px;
@@ -44,50 +44,51 @@ body{
             line-height: 28px;
 
             color: #333333;
+        }
     }
-}
-    
-    .sell_procedure{
-            height: 1706px;
 
-            font-weight: bold;
-            font-size: 24px;
-            line-height: 28px;
-            
-            padding: 0;
-            margin: 0;
+    .sell_procedure {
+        height: 1706px;
 
-            color: #000000;
-            
-        summary{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+
+        padding: 0;
+        margin: 0;
+
+        color: #000000;
+
+        summary {
             outline: none;
         }
-            
-//        "〉"→参考：https://pixelog.net/post/rn7zja/
+
+        //        "〉"→参考：https://pixelog.net/post/rn7zja/
         summary::after {
             position: absolute;
             left: 83.61%;
             right: 15.28%;
             top: 17.89%;
             bottom: 81.07%;
-                        
+
             width: 16px;
             height: 30px;
-            
+
             display: inline-block;
             content: "〉";
             margin: 0 .3em 0 0;
             transform: rotate(90deg);
             transition: .2s transform ease;
         }
-        
-        details[open] summary::after{
+
+        details[open] summary::after {
             transform: rotate(270deg);
         }
-//        "〉"→参考：https://pixelog.net/post/rn7zja/
-        
+
+        //        "〉"→参考：https://pixelog.net/post/rn7zja/
+
         //        animation→参考：https://rui-log.com/details-accordion/
-        details[open] .procedure_text_hosoku{
+        details[open] .procedure_text_hosoku {
             animation: SlideIn 0.25s ease;
         }
 
@@ -96,22 +97,24 @@ body{
                 opacity: 0;
                 transform: translateY(-10px);
             }
+
             100% {
                 opacity: 1;
                 transform: none;
             }
         }
+
         //        animation→参考：https://rui-log.com/details-accordion/
-        
-        .procedure_title{
+
+        .procedure_title {
             padding-bottom: 13px;
         }
-        
-         ul li{
+
+        ul li {
             padding: 60px 0;
         }
-        
-        .procedure_text{
+
+        .procedure_text {
             width: 870px;
             height: 24px;
             left: 377px;
@@ -123,11 +126,11 @@ body{
             /* identical to box height, or 171% */
 
             color: #000000;
-            
+
             border-bottom: 4px solid #E6E6E6;
         }
-        
-        .procedure_text_hosoku{
+
+        .procedure_text_hosoku {
             width: 843px;
             height: 73px;
             left: 377px;
@@ -140,76 +143,76 @@ body{
 
             color: #000000;
         }
-        
-        .soudan{
+
+        .soudan {
             position: absolute;
             left: 377px;
             top: 497px;
-            
-            .procedure_title{
+
+            .procedure_title {
                 width: 189px;
             }
-            
-            .contact_button{
+
+            .contact_button {
                 font-size: 14px;
-                
+
                 color: #ffffff;
                 background-color: #3f628a;
             }
         }
-        
-        .search_satei{
+
+        .search_satei {
             position: absolute;
             left: 377px;
             top: 655px;
-            
-            .procedure_title{
+
+            .procedure_title {
                 width: 237px;
             }
         }
-        
-        .baikai_contract{
+
+        .baikai_contract {
             position: absolute;
             left: 377px;
             top: 963px;
-            
-            .procedure_title{
+
+            .procedure_title {
                 width: 141px;
             }
 
-            .baikai_kinds{
+            .baikai_kinds {
                 display: flex;
             }
         }
-        
-        .boshu_apply{
+
+        .boshu_apply {
             position: absolute;
             left: 377px;
             top: 1180px;
-            
-            .procedure_title{
+
+            .procedure_title {
                 width: 321px;
             }
         }
-        
-        .contract{
+
+        .contract {
             position: absolute;
             width: 189px;
             left: 377px;
             top: 1531px;
         }
-        
-        .get_house{
+
+        .get_house {
             position: absolute;
             width: 93px;
             left: 378px;
             top: 1845px;
         }
-        
+
     }
-    
+
 }
 
-.footer{
+.footer {
     top: 2793px;
 }

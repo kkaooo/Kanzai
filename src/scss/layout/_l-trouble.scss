@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-body{
+body {
     position: relative;
     width: 1440px;
     height: 2550px;
@@ -9,7 +9,7 @@ body{
 }
 
 
-h1{
+h1 {
     position: absolute;
     width: 480px;
     height: 56px;
@@ -25,7 +25,7 @@ h1{
     color: #333333;
 }
 
-.trouble_overview{
+.trouble_overview {
     position: absolute;
     width: 1000px;
     height: 60px;
@@ -43,23 +43,23 @@ h1{
     color: #000000;
 }
 
-.example{
+.example {
     position: absolute;
     left: 220px;
     top: 909px;
 }
 
-.example_contents{
-    
-    .case{
-//        position: absolute;
+.example_contents {
+
+    .case {
+        //        position: absolute;
         width: 1000px;
         height: 60px;
         left: 220px;
         top: 909px;
-        
+
         background: #618BBB;
-        
+
         font-family: Noto Sans JP;
         font-style: normal;
         font-weight: bold;
@@ -68,9 +68,9 @@ h1{
 
         color: #FFFFFF;
     }
-    
-    .text{
-//        position: absolute;
+
+    .text {
+        //        position: absolute;
         width: 1000px;
         height: 120px;
         left: 220px;
@@ -89,9 +89,9 @@ h1{
     }
 }
 
-.contact{
-    
-    h2{
+.contact {
+
+    h2 {
         position: absolute;
         width: 300px;
         height: 28px;
@@ -106,8 +106,8 @@ h1{
 
         color: #3F628A;
     }
-    
-    img{
+
+    img {
         position: absolute;
         width: 1000px;
         height: 300px;
