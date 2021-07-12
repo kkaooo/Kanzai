@@ -2,59 +2,63 @@
 
 .FAQ {
     &_header {
-        width: 1440px;
+        position: relative;
+        width: 100vw;
+        margin: 0 calc(50% - 50vw);
         height: 200px;
-        left: 0px;
-        top: 150px;
+
+        margin-bottom: 100px;
 
         h1 {
-            position: absolute;
-            width: 288px;
-            height: 56px;
-            left: 220px;
-            top: 222px;
-
             font-weight: bold;
             font-size: 48px;
             line-height: 56px;
 
             color: #333333;
-        }
 
-        .Q_list {
             position: absolute;
-            display: flex;
-            left: 220px;
-            top: 450px;
+            left: calc(calc(100vw - 1000px) / 2);
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit- transform: translateY(-50%);
 
-
-            li a {
-                width: 198px;
-                height: 21px;
-                text-align: center;
-
-                font-weight: bold;
-                font-size: 18px;
-                line-height: 21px;
-                /* identical to box height */
-                color: #3F628A;
-
-                span {
-                    width: 15px;
-                    height: 31px;
-                    left: 335px;
-                    top: 492px;
-
-                    display: inline-block; //spanはインライン要素なので、インラインブロックにしないと回転できない
-                    transform: rotate(90deg);
-                }
-            }
-
-            li + li {
-                margin-left: 203px;
-            }
-
+            margin: 0;
         }
+    }
+
+    .Q_list {
+        position: absolute;
+        display: flex;
+        left: 220px;
+        top: 450px;
+
+
+        li a {
+            width: 198px;
+            height: 21px;
+            text-align: center;
+
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            /* identical to box height */
+            color: #3F628A;
+
+            span {
+                width: 15px;
+                height: 31px;
+                left: 335px;
+                top: 492px;
+
+                display: inline-block; //spanはインライン要素なので、インラインブロックにしないと回転できない
+                transform: rotate(90deg);
+            }
+        }
+
+        li + li {
+            margin-left: 203px;
+        }
+
     }
 
     .QA_item {
