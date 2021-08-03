@@ -1,35 +1,42 @@
+// body の height は指定しない
+// ヘッダー画像以外では position absolute を使わない
 @charset 'utf-8';
 
-body {
-    position: relative;
-    width: 1440px;
+.trouble {
+    &_header {
+        position: relative;
+        width: 100vw;
+        height: 200px;
+        margin: 0 calc(50% - 50vw);
+    }
 
-    background: #FFFFFF;
-}
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: calc(calc(100vw - 1000px) / 2);
 
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        color: #333333;
 
-h1 {
-    position: absolute;
-    width: 480px;
-    height: 56px;
-    left: 220px;
-    top: 222px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 56px;
-
-    color: #333333;
+        margin: 0;
+    }
 }
 
 .trouble_overview {
-    position: absolute;
-    width: 1000px;
-    height: 60px;
-    left: 220px;
-    top: 730px;
+    img.square {
+        z-index: 2;
+    }
+
+    img.mark {
+        z-index: 1;
+    }
+
+    left: calc(calc(100vw - 1000px) / 2);
 
     font-family: Noto Sans JP;
     font-style: normal;
@@ -43,7 +50,6 @@ h1 {
 }
 
 .example {
-    position: absolute;
     left: 220px;
     top: 909px;
 }
@@ -51,9 +57,7 @@ h1 {
 .example_contents {
 
     .case {
-        //        position: absolute;
         width: 1000px;
-        height: 60px;
         left: 220px;
         top: 909px;
 
@@ -69,14 +73,11 @@ h1 {
     }
 
     .text {
-        //        position: absolute;
         width: 1000px;
-        height: 120px;
         left: 220px;
         top: 988px;
 
         font-family: Noto Sans JP;
-        font-style: normal;
         font-weight: bold;
         font-size: 14px;
         line-height: 30px;
@@ -91,14 +92,11 @@ h1 {
 .contact {
 
     h2 {
-        position: absolute;
         width: 300px;
         height: 28px;
         left: 265px;
         top: 2074px;
 
-        font-family: Roboto;
-        font-style: normal;
         font-weight: bold;
         font-size: 24px;
         line-height: 28px;
@@ -107,9 +105,7 @@ h1 {
     }
 
     img {
-        position: absolute;
         width: 1000px;
-        height: 300px;
         left: 220px;
         top: 2044px;
 

@@ -1182,30 +1182,26 @@ body a:visited {
 .footer {
   top: 1526px; }
 
-body {
+.trouble_header {
   position: relative;
-  width: 1440px;
-  background: #FFFFFF; }
+  width: 100vw;
+  height: 200px;
+  margin: 0 calc(50% - 50vw); }
 
-h1 {
+.trouble h1 {
   position: absolute;
-  width: 480px;
-  height: 56px;
-  left: 220px;
-  top: 222px;
-  font-family: Roboto;
-  font-style: normal;
+  top: 50%;
+  left: calc(calc(100vw - 1000px) / 2);
   font-weight: bold;
   font-size: 48px;
   line-height: 56px;
-  color: #333333; }
+  color: #333333;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  margin: 0; }
 
 .trouble_overview {
-  position: absolute;
-  width: 1000px;
-  height: 60px;
-  left: 220px;
-  top: 730px;
+  left: calc(calc(100vw - 1000px) / 2);
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: normal;
@@ -1213,15 +1209,17 @@ h1 {
   line-height: 30px;
   /* or 214% */
   color: #000000; }
+  .trouble_overview img.square {
+    z-index: 2; }
+  .trouble_overview img.mark {
+    z-index: 1; }
 
 .example {
-  position: absolute;
   left: 220px;
   top: 909px; }
 
 .example_contents .case {
   width: 1000px;
-  height: 60px;
   left: 220px;
   top: 909px;
   background: #618BBB;
@@ -1234,11 +1232,9 @@ h1 {
 
 .example_contents .text {
   width: 1000px;
-  height: 120px;
   left: 220px;
   top: 988px;
   font-family: Noto Sans JP;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 30px;
@@ -1247,22 +1243,17 @@ h1 {
   color: #000000; }
 
 .contact h2 {
-  position: absolute;
   width: 300px;
   height: 28px;
   left: 265px;
   top: 2074px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
   color: #3F628A; }
 
 .contact img {
-  position: absolute;
   width: 1000px;
-  height: 300px;
   left: 220px;
   top: 2044px;
   background: rgba(255, 255, 255, 0.5); }
