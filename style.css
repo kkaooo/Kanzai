@@ -973,74 +973,38 @@ body {
     background: #FCFCFC; }
 
 .kaitai_header {
-  width: 1440px;
+  width: 100vw;
   height: 200px;
-  left: 0px;
-  top: 150px; }
+  margin: 0 calc(50% - 50vw);
+  margin-bottom: 100px; }
   .kaitai_header h1 {
     position: absolute;
-    width: 192px;
-    height: 56px;
-    left: 220px;
-    top: 200px;
-    margin: 0;
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 56px;
     color: #333333; }
   .kaitai_header h2 {
     position: absolute;
-    width: 144px;
-    height: 28px;
-    left: 220px;
-    top: 273px;
-    margin: 0;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     color: #333333; }
 
 .kaitai .buy_description {
   position: absolute;
-  width: 1000px;
-  height: 16px;
-  left: 221px;
-  top: 450px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   color: #212121; }
 
 .kaitai_banner {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 825px; }
   .kaitai_banner img + img {
-    margin-left: 37px;
-    width: 300px;
-    height: 100px; }
-  .kaitai_banner .yahoo {
-    position: absolute;
-    left: 224px;
-    top: 535px;
-    background: #FCFCFC; }
-  .kaitai_banner .kenbiya {
-    position: absolute;
-    left: 561px;
-    top: 535px;
-    background: #FCFCFC; }
+    margin-left: 37px; }
+  .kaitai_banner .yahoo,
+  .kaitai_banner .kenbiya,
   .kaitai_banner .rakumachi {
     position: absolute;
-    left: 901px;
-    top: 535px;
     background: #FCFCFC; }
-
-.footer {
-  top: 1526px; }
 
 .kaitai_header {
   width: 1440px;
@@ -1109,29 +1073,30 @@ body {
     top: 535px;
     background: #FCFCFC; }
 
-body a,
-body a:hover,
-body a:visited {
+.site_map a,
+.site_map a:hover,
+.site_map a:visited {
   color: #000000; }
 
-.sitemap_header img {
-  position: absolute;
-  width: 1440px;
+.site_map_header {
+  width: 100vw;
   height: 200px;
-  background: #C4C4C4; }
+  margin: 0 calc(50% - 50vw);
+  position: relative;
+  margin-bottom: 100px; }
+  .site_map_header h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #333333;
+    position: absolute;
+    top: 50%;
+    left: calc(calc(100vw - 1000px) / 2);
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    margin: 0; }
 
-.sitemap_header h1 {
-  position: absolute;
-  top: 222px;
-  left: 259px;
-  width: 288px;
-  height: 56px;
-  margin: 0;
-  font-size: 48px;
-  line-height: 56px;
-  color: #000000; }
-
-.sitemap_title {
+.site_map .sitemap_link_title {
   display: flex;
   width: 280px;
   height: 28px;
@@ -1143,7 +1108,7 @@ body a:visited {
   padding-bottom: 20px;
   border-bottom: 3px solid #618BBB; }
 
-.sitemap_contents {
+.site_map .sitemap_link_contents {
   position: absolute;
   width: 236px;
   height: 20px;
@@ -1155,32 +1120,29 @@ body a:visited {
   padding-top: 20px;
   padding-left: 20px; }
 
-.sitemap .sell_buy {
+.site_map .sitemap_link .sell_buy {
   position: absolute;
   left: 221px;
   top: 450px; }
-  .sitemap .sell_buy a {
+  .site_map .sitemap_link .sell_buy a {
     padding-bottom: 20px; }
 
-.sitemap .question {
+.site_map .sitemap_link .question {
   position: absolute;
   left: 570px;
   top: 450px; }
-  .sitemap .question a {
+  .site_map .sitemap_link .question a {
     padding-bottom: 20px; }
 
-.sitemap .company {
+.site_map .sitemap_link .company {
   position: absolute;
   left: 917px;
   top: 450px; }
 
-.sitemap .privacy {
+.site_map .sitemap_link .privacy {
   position: absolute;
   left: 917px;
   top: 551px; }
-
-.footer {
-  top: 1526px; }
 
 .trouble_header {
   position: relative;
@@ -1202,8 +1164,6 @@ body a:visited {
 
 .trouble_overview {
   left: calc(calc(100vw - 1000px) / 2);
-  font-family: Noto Sans JP;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 30px;
@@ -1213,6 +1173,8 @@ body a:visited {
     z-index: 2; }
   .trouble_overview img.mark {
     z-index: 1; }
+  .trouble_overview p {
+    font-weight: bold; }
 
 .example {
   left: 220px;
@@ -1220,15 +1182,18 @@ body a:visited {
 
 .example_contents .case {
   width: 1000px;
-  left: 220px;
-  top: 909px;
+  height: 60px;
+  display: flex;
   background: #618BBB;
   font-family: Noto Sans JP;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 20px;
   color: #FFFFFF; }
+  .example_contents .case img {
+    width: 25px;
+    height: 25px;
+    transform: translate(0, 50%); }
 
 .example_contents .text {
   width: 1000px;
@@ -1290,7 +1255,7 @@ body a:visited {
     line-height: 28px;
     color: #333333; }
 
-.uritai .sell_procedure {
+.uritai .sell_procedure_list {
   height: 1706px;
   font-weight: bold;
   font-size: 24px;
@@ -1298,10 +1263,24 @@ body a:visited {
   padding: 0;
   margin: 0;
   color: #000000; }
-  .uritai .sell_procedure summary {
-    outline: none; }
-  .uritai .sell_procedure summary::after {
+  .uritai .sell_procedure_list .sell_procedure .step {
     position: absolute;
+    width: 116px;
+    height: 136px;
+    left: 220px;
+    top: 450px;
+    background: #618BBB; }
+  .uritai .sell_procedure_list .sell_procedure .step::after {
+    content: "";
+    position: absolute;
+    top: 136px;
+    background: #618BBB;
+    border-right: 58px solid;
+    border-top: 58px solid transparent;
+    border-left: 58px solid; }
+  .uritai .sell_procedure_list .sell_procedure summary {
+    outline: none; }
+  .uritai .sell_procedure_list .sell_procedure summary::after {
     left: 83.61%;
     right: 15.28%;
     top: 17.89%;
@@ -1313,9 +1292,11 @@ body a:visited {
     margin: 0 .3em 0 0;
     transform: rotate(90deg);
     transition: .2s transform ease; }
-  .uritai .sell_procedure details[open] summary::after {
+  .uritai .sell_procedure_list .sell_procedure details[open] {
+    height: 300px; }
+  .uritai .sell_procedure_list .sell_procedure details[open] summary::after {
     transform: rotate(270deg); }
-  .uritai .sell_procedure details[open] .procedure_text_hosoku {
+  .uritai .sell_procedure_list .sell_procedure details[open] .supplement {
     animation: SlideIn 0.25s ease; }
 
 @keyframes SlideIn {
@@ -1325,11 +1306,9 @@ body a:visited {
   100% {
     opacity: 1;
     transform: none; } }
-  .uritai .sell_procedure .procedure_title {
+  .uritai .sell_procedure_list .sell_procedure .title {
     padding-bottom: 13px; }
-  .uritai .sell_procedure ul li {
-    padding: 60px 0; }
-  .uritai .sell_procedure .procedure_text {
+  .uritai .sell_procedure_list .sell_procedure .text {
     width: 870px;
     height: 24px;
     left: 377px;
@@ -1337,10 +1316,9 @@ body a:visited {
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
     color: #000000;
     border-bottom: 4px solid #E6E6E6; }
-  .uritai .sell_procedure .procedure_text_hosoku {
+  .uritai .sell_procedure_list .sell_procedure .supplement {
     width: 843px;
     height: 73px;
     left: 377px;
@@ -1348,48 +1326,11 @@ body a:visited {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     color: #000000; }
-  .uritai .sell_procedure .soudan {
-    position: absolute;
-    left: 377px;
-    top: 497px; }
-    .uritai .sell_procedure .soudan .procedure_title {
-      width: 189px; }
-    .uritai .sell_procedure .soudan .contact_button {
-      font-size: 14px;
-      color: #ffffff;
-      background-color: #3f628a; }
-  .uritai .sell_procedure .search_satei {
-    position: absolute;
-    left: 377px;
-    top: 655px; }
-    .uritai .sell_procedure .search_satei .procedure_title {
-      width: 237px; }
-  .uritai .sell_procedure .baikai_contract {
-    position: absolute;
-    left: 377px;
-    top: 963px; }
-    .uritai .sell_procedure .baikai_contract .procedure_title {
-      width: 141px; }
-    .uritai .sell_procedure .baikai_contract .baikai_kinds {
-      display: flex; }
-  .uritai .sell_procedure .boshu_apply {
-    position: absolute;
-    left: 377px;
-    top: 1180px; }
-    .uritai .sell_procedure .boshu_apply .procedure_title {
-      width: 321px; }
-  .uritai .sell_procedure .contract {
-    position: absolute;
-    width: 189px;
-    left: 377px;
-    top: 1531px; }
-  .uritai .sell_procedure .get_house {
-    position: absolute;
-    width: 93px;
-    left: 378px;
-    top: 1845px; }
+  .uritai .sell_procedure_list .sell_procedure .contact_button {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #3f628a; }
 
 .footer {
   top: 2793px; }

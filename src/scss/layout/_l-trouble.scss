@@ -38,12 +38,14 @@
 
     left: calc(calc(100vw - 1000px) / 2);
 
-    font-family: Noto Sans JP;
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 30px;
+
     /* or 214% */
+    p {
+        font-weight: bold;
+    }
 
 
     color: #000000;
@@ -58,8 +60,8 @@
 
     .case {
         width: 1000px;
-        left: 220px;
-        top: 909px;
+        height: 60px;
+        display: flex;
 
         background: #618BBB;
 
@@ -67,9 +69,14 @@
         font-style: normal;
         font-weight: bold;
         font-size: 14px;
-        line-height: 20px;
 
         color: #FFFFFF;
+
+        img {
+            width: 25px;
+            height: 25px;
+            transform: translate(0, 50%);
+        }
     }
 
     .text {

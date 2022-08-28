@@ -1,6 +1,6 @@
 @charset 'utf-8';
 
-body {
+.site_map {
 
     a,
     a:hover,
@@ -8,105 +8,99 @@ body {
         color: #000000;
     }
 
-}
-
-.sitemap_header {
-    img {
-        position: absolute;
-        width: 1440px;
+    &_header {
+        width: 100vw;
         height: 200px;
+        margin: 0 calc(50% - 50vw);
+        position: relative;
+        margin-bottom: 100px;
 
-        background: #C4C4C4;
-    }
+        h1 {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 56px;
 
-    h1 {
-        position: absolute;
-        top: 222px;
-        left: 259px;
-        width: 288px;
-        height: 56px;
+            color: #333333;
 
-        margin: 0;
+            position: absolute;
+            top: 50%;
+            left: calc(calc(100vw - 1000px) / 2);
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
 
-        font-size: 48px;
-        line-height: 56px;
-
-        color: #000000;
-        //        font-weight: bold;
-    }
-
-}
-
-.sitemap {
-
-    &_title {
-        display: flex;
-        width: 280px;
-        //            width: 260px;
-        height: 28px;
-
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-
-        color: #000000;
-
-        padding-left: 20px;
-        padding-bottom: 20px;
-        border-bottom: 3px solid #618BBB;
-    }
-
-    &_contents {
-        position: absolute;
-        width: 236px;
-        height: 20px;
-
-        font-family: Noto Sans JP;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 20px;
-
-        color: #000000;
-
-        padding-top: 20px;
-        padding-left: 20px;
-
-    }
-
-    .sell_buy {
-        position: absolute;
-        left: 221px;
-        top: 450px;
-
-        & a {
-            padding-bottom: 20px;
+            margin: 0;
         }
+
     }
 
-    .question {
-        position: absolute;
-        left: 570px;
-        top: 450px;
+    .sitemap_link {
 
-        & a {
+        &_title {
+            display: flex;
+            width: 280px;
+            //            width: 260px;
+            height: 28px;
+
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+
+            color: #000000;
+
+            padding-left: 20px;
             padding-bottom: 20px;
+            border-bottom: 3px solid #618BBB;
         }
+
+        &_contents {
+            position: absolute;
+            width: 236px;
+            height: 20px;
+
+            font-family: Noto Sans JP;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+
+            color: #000000;
+
+            padding-top: 20px;
+            padding-left: 20px;
+
+        }
+
+        .sell_buy {
+            position: absolute;
+            left: 221px;
+            top: 450px;
+
+            & a {
+                padding-bottom: 20px;
+            }
+        }
+
+        .question {
+            position: absolute;
+            left: 570px;
+            top: 450px;
+
+            & a {
+                padding-bottom: 20px;
+            }
+        }
+
+        .company {
+            position: absolute;
+            left: 917px;
+            top: 450px;
+        }
+
+        .privacy {
+            position: absolute;
+            left: 917px;
+            top: 551px;
+        }
+
     }
 
-    .company {
-        position: absolute;
-        left: 917px;
-        top: 450px;
-    }
-
-    .privacy {
-        position: absolute;
-        left: 917px;
-        top: 551px;
-    }
-
-}
-
-.footer {
-    top: 1526px;
 }
