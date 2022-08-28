@@ -50,7 +50,7 @@
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 24px;
 
         color: #212121;
 
@@ -158,11 +158,13 @@
                 .item_tel {
                     height: 58px;
                     top: 1155px;
+                    line-height: 30px;
                 }
 
                 .item_fax {
                     height: 62px;
                     top: 1253px;
+                    line-height: 30px;
                 }
 
                 .item_license {
@@ -254,4 +256,8 @@
         }
 
     }
+}
+
+.footer {
+    position: absolute;
 }

@@ -591,7 +591,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 24px;
   color: #212121; }
 
 .company .company_profile {
@@ -663,10 +663,12 @@ body {
         top: 1097px; }
       .company .company_profile .company_profile_contents .company_profile_item .item_tel {
         height: 58px;
-        top: 1155px; }
+        top: 1155px;
+        line-height: 30px; }
       .company .company_profile .company_profile_contents .company_profile_item .item_fax {
         height: 62px;
-        top: 1253px; }
+        top: 1253px;
+        line-height: 30px; }
       .company .company_profile .company_profile_contents .company_profile_item .item_license {
         height: 20px;
         top: 1357px; }
@@ -728,6 +730,9 @@ body {
   height: 500px;
   left: 600px;
   top: 1861px; }
+
+.footer {
+  position: absolute; }
 
 .kaitai_header {
   width: 1440px;
